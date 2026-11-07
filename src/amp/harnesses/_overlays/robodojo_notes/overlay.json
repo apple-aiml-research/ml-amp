@@ -1,0 +1,7 @@
+{
+  "tag": "rdnotes",
+  "description": "the task recipe also carries the official LLM entry's own strategy notes for the four tasks that have them (task_notes); applied after robodojo_recipe, whose text it extends (text sha256 4c0c8a8b4e08)",
+  "server_env": {
+    "task_notes": "true"
+  }
+}

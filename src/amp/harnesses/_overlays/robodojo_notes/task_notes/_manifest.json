@@ -1,0 +1,39 @@
+{
+ "schema": 1,
+ "generated_by": "tools/robodojo_task_notes.py",
+ "kind": "notes",
+ "source": {
+  "repo": "XPolicyLab",
+  "commit": "53c5da5a01bc720d1cf0e6ab6ed212e8cef0eda2",
+  "path": "policy/GPT_6_Astra_Direct_EEF/inspect/recipes",
+  "licence": "Apache-2.0",
+  "content": "the official entry's own strategy notes, appended to the recipe"
+ },
+ "difference": "recipe + notes is the source file with 'ladder, followed by notes on how this task goes that are not from the wiki.' read as 'ladder.': a recipe served without the notes must not announce them, and the notes are appended after that sentence",
+ "files": [
+  {
+   "task": "imitate_sorting_sequence",
+   "file": "imitate_sorting_sequence.md",
+   "source_sha256": "7cb191a844799bd0acea0baccabd66ed70532227013096e48edfab9c028825ac",
+   "sha256": "030f33a272034f3199dcde15b3c777b45ecf7472512be65674ab13baf96050e0"
+  },
+  {
+   "task": "make_kong",
+   "file": "make_kong.md",
+   "source_sha256": "3569b1cf8d3fbfe30d2432e4d7a891b0b170ee478318996f0f7908f099634dcb",
+   "sha256": "18f899a250086feadf14e1bac3dfd8228c5a353cec438a61ceef2e0a352796ed"
+  },
+  {
+   "task": "match_and_pick_from_conveyor",
+   "file": "match_and_pick_from_conveyor.md",
+   "source_sha256": "77da76a4ed0dde958d2b0417815b25e5c8e2c56844a956486920271f7f0657dd",
+   "sha256": "fb73655db1ad16b4a1a2f88076c4d8df7458ad41c4ce8aa1164b8578c5f3b296"
+  },
+  {
+   "task": "play_tic_tac_toe",
+   "file": "play_tic_tac_toe.md",
+   "source_sha256": "828ff07a28af5c08f7b9ff8359bfd5794db2a07b6c201160f7baca787fac3e8a",
+   "sha256": "36238b25f26469a42a20a93c402c0d5cd66c8453cb1d6eb7a6710dbe16ca58f1"
+  }
+ ]
+}

@@ -1,0 +1,655 @@
+{
+ "schema": 3,
+ "capx_commit": "53e9966d7a8e2fa7494676772bccc35280f5c0ed",
+ "libero_pro_commit": "5368540790fde9a18584d64105ec5ac16d8926bd",
+ "libero_pro_dataset": {
+  "repo": "zhouxueyang/LIBERO-Pro",
+  "revision": "c86fc3b8293185a6f373677018ff3e37f8391602"
+ },
+ "generated_by": "AMP, from the CaP-X checkout at capx_commit",
+ "suites": {
+  "libero_object_swap": {
+   "task_set": "capgym_libero",
+   "tasks": [
+    {
+     "name": "libero_object_swap.00",
+     "task_id": 0,
+     "bddl_file": "libero_object_swap/pick_up_the_alphabet_soup_and_place_it_in_the_basket.bddl",
+     "instruction": "Pick the alphabet soup and place it in the basket",
+     "init_states": 50
+    },
+    {
+     "name": "libero_object_swap.01",
+     "task_id": 1,
+     "bddl_file": "libero_object_swap/pick_up_the_cream_cheese_and_place_it_in_the_basket.bddl",
+     "instruction": "Pick the cream cheese and place it in the basket",
+     "init_states": 50
+    },
+    {
+     "name": "libero_object_swap.02",
+     "task_id": 2,
+     "bddl_file": "libero_object_swap/pick_up_the_salad_dressing_and_place_it_in_the_basket.bddl",
+     "instruction": "Pick the salad dressing and place it in the basket",
+     "init_states": 50
+    },
+    {
+     "name": "libero_object_swap.03",
+     "task_id": 3,
+     "bddl_file": "libero_object_swap/pick_up_the_bbq_sauce_and_place_it_in_the_basket.bddl",
+     "instruction": "Pick the bbq sauce and place it in the basket",
+     "init_states": 50
+    },
+    {
+     "name": "libero_object_swap.04",
+     "task_id": 4,
+     "bddl_file": "libero_object_swap/pick_up_the_ketchup_and_place_it_in_the_basket.bddl",
+     "instruction": "Pick the ketchup and place it in the basket",
+     "init_states": 50
+    },
+    {
+     "name": "libero_object_swap.05",
+     "task_id": 5,
+     "bddl_file": "libero_object_swap/pick_up_the_tomato_sauce_and_place_it_in_the_basket.bddl",
+     "instruction": "Pick the tomato sauce and place it in the basket",
+     "init_states": 50
+    },
+    {
+     "name": "libero_object_swap.06",
+     "task_id": 6,
+     "bddl_file": "libero_object_swap/pick_up_the_butter_and_place_it_in_the_basket.bddl",
+     "instruction": "Pick the butter and place it in the basket",
+     "init_states": 50
+    },
+    {
+     "name": "libero_object_swap.07",
+     "task_id": 7,
+     "bddl_file": "libero_object_swap/pick_up_the_milk_and_place_it_in_the_basket.bddl",
+     "instruction": "Pick the milk and place it in the basket",
+     "init_states": 50
+    },
+    {
+     "name": "libero_object_swap.08",
+     "task_id": 8,
+     "bddl_file": "libero_object_swap/pick_up_the_chocolate_pudding_and_place_it_in_the_basket.bddl",
+     "instruction": "Pick the chocolate pudding and place it in the basket",
+     "init_states": 50
+    },
+    {
+     "name": "libero_object_swap.09",
+     "task_id": 9,
+     "bddl_file": "libero_object_swap/pick_up_the_orange_juice_and_place_it_in_the_basket.bddl",
+     "instruction": "Pick the orange juice and place it in the basket",
+     "init_states": 50
+    }
+   ]
+  },
+  "libero_object_task": {
+   "task_set": "capgym_libero",
+   "tasks": [
+    {
+     "name": "libero_object_task.00",
+     "task_id": 0,
+     "bddl_file": "libero_object_task/pick_up_the_alphabet_soup_and_place_it_in_the_basket.bddl",
+     "instruction": "Pick the cream cheese and place it in the basket",
+     "init_states": 50
+    },
+    {
+     "name": "libero_object_task.01",
+     "task_id": 1,
+     "bddl_file": "libero_object_task/pick_up_the_cream_cheese_and_place_it_in_the_basket.bddl",
+     "instruction": "Pick the alphabet soup and place it in the basket",
+     "init_states": 50
+    },
+    {
+     "name": "libero_object_task.02",
+     "task_id": 2,
+     "bddl_file": "libero_object_task/pick_up_the_salad_dressing_and_place_it_in_the_basket.bddl",
+     "instruction": "Pick the tomato sauce and place it in the basket",
+     "init_states": 50
+    },
+    {
+     "name": "libero_object_task.03",
+     "task_id": 3,
+     "bddl_file": "libero_object_task/pick_up_the_bbq_sauce_and_place_it_in_the_basket.bddl",
+     "instruction": "Pick the ketchup and place it in the basket",
+     "init_states": 50
+    },
+    {
+     "name": "libero_object_task.04",
+     "task_id": 4,
+     "bddl_file": "libero_object_task/pick_up_the_ketchup_and_place_it_in_the_basket.bddl",
+     "instruction": "Pick the milk and place it in the basket",
+     "init_states": 50
+    },
+    {
+     "name": "libero_object_task.05",
+     "task_id": 5,
+     "bddl_file": "libero_object_task/pick_up_the_tomato_sauce_and_place_it_in_the_basket.bddl",
+     "instruction": "Pick the bbq sauce and place it in the basket",
+     "init_states": 50
+    },
+    {
+     "name": "libero_object_task.06",
+     "task_id": 6,
+     "bddl_file": "libero_object_task/pick_up_the_butter_and_place_it_in_the_basket.bddl",
+     "instruction": "Pick the orange juice and place it in the basket",
+     "init_states": 50
+    },
+    {
+     "name": "libero_object_task.07",
+     "task_id": 7,
+     "bddl_file": "libero_object_task/pick_up_the_milk_and_place_it_in_the_basket.bddl",
+     "instruction": "Pick the butter and place it in the basket",
+     "init_states": 50
+    },
+    {
+     "name": "libero_object_task.08",
+     "task_id": 8,
+     "bddl_file": "libero_object_task/pick_up_the_chocolate_pudding_and_place_it_in_the_basket.bddl",
+     "instruction": "Pick the salad dressing and place it in the basket",
+     "init_states": 50
+    },
+    {
+     "name": "libero_object_task.09",
+     "task_id": 9,
+     "bddl_file": "libero_object_task/pick_up_the_orange_juice_and_place_it_in_the_basket.bddl",
+     "instruction": "Pick the chocolate pudding and place it in the basket",
+     "init_states": 50
+    }
+   ]
+  },
+  "libero_goal_swap": {
+   "task_set": "capgym_libero",
+   "tasks": [
+    {
+     "name": "libero_goal_swap.00",
+     "task_id": 0,
+     "bddl_file": "libero_goal_swap/open_the_middle_drawer_of_the_cabinet.bddl",
+     "instruction": "Open the middle layer of the drawer",
+     "init_states": 50
+    },
+    {
+     "name": "libero_goal_swap.01",
+     "task_id": 1,
+     "bddl_file": "libero_goal_swap/put_the_bowl_on_the_stove.bddl",
+     "instruction": "Put the bowl on the stove",
+     "init_states": 50
+    },
+    {
+     "name": "libero_goal_swap.02",
+     "task_id": 2,
+     "bddl_file": "libero_goal_swap/put_the_wine_bottle_on_top_of_the_cabinet.bddl",
+     "instruction": "Put the wine bottle on the top of the drawer",
+     "init_states": 50
+    },
+    {
+     "name": "libero_goal_swap.03",
+     "task_id": 3,
+     "bddl_file": "libero_goal_swap/open_the_top_drawer_and_put_the_bowl_inside.bddl",
+     "instruction": "Open the top layer of the drawer and put the bowl inside",
+     "init_states": 50
+    },
+    {
+     "name": "libero_goal_swap.04",
+     "task_id": 4,
+     "bddl_file": "libero_goal_swap/put_the_bowl_on_top_of_the_cabinet.bddl",
+     "instruction": "Put the bowl on the top of the drawer",
+     "init_states": 50
+    },
+    {
+     "name": "libero_goal_swap.05",
+     "task_id": 5,
+     "bddl_file": "libero_goal_swap/push_the_plate_to_the_front_of_the_stove.bddl",
+     "instruction": "Push the plate to the front of the stove",
+     "init_states": 50
+    },
+    {
+     "name": "libero_goal_swap.06",
+     "task_id": 6,
+     "bddl_file": "libero_goal_swap/put_the_cream_cheese_in_the_bowl.bddl",
+     "instruction": "Put the cream cheese on the bowl",
+     "init_states": 50
+    },
+    {
+     "name": "libero_goal_swap.07",
+     "task_id": 7,
+     "bddl_file": "libero_goal_swap/turn_on_the_stove.bddl",
+     "instruction": "Turn on the stove",
+     "init_states": 50
+    },
+    {
+     "name": "libero_goal_swap.08",
+     "task_id": 8,
+     "bddl_file": "libero_goal_swap/put_the_bowl_on_the_plate.bddl",
+     "instruction": "Put the bowl on the plate",
+     "init_states": 50
+    },
+    {
+     "name": "libero_goal_swap.09",
+     "task_id": 9,
+     "bddl_file": "libero_goal_swap/put_the_wine_bottle_on_the_rack.bddl",
+     "instruction": "Put the wine bottle on the rack",
+     "init_states": 50
+    }
+   ]
+  },
+  "libero_goal_task": {
+   "task_set": "capgym_libero",
+   "tasks": [
+    {
+     "name": "libero_goal_task.00",
+     "task_id": 0,
+     "bddl_file": "libero_goal_task/open_the_middle_drawer_of_the_cabinet.bddl",
+     "instruction": "open the bottom drawer of the cabinet",
+     "init_states": 50
+    },
+    {
+     "name": "libero_goal_task.01",
+     "task_id": 1,
+     "bddl_file": "libero_goal_task/put_the_bowl_on_the_stove.bddl",
+     "instruction": "Put the plate on the stove",
+     "init_states": 50
+    },
+    {
+     "name": "libero_goal_task.02",
+     "task_id": 2,
+     "bddl_file": "libero_goal_task/put_the_wine_bottle_on_top_of_the_cabinet.bddl",
+     "instruction": "put the wine bottle in the bowl",
+     "init_states": 50
+    },
+    {
+     "name": "libero_goal_task.03",
+     "task_id": 3,
+     "bddl_file": "libero_goal_task/open_the_top_drawer_and_put_the_bowl_inside.bddl",
+     "instruction": "Open the top layer of the drawer and put the cream cheese inside",
+     "init_states": 50
+    },
+    {
+     "name": "libero_goal_task.04",
+     "task_id": 4,
+     "bddl_file": "libero_goal_task/put_the_bowl_on_top_of_the_cabinet.bddl",
+     "instruction": "Put the plate on the top of the drawer",
+     "init_states": 50
+    },
+    {
+     "name": "libero_goal_task.05",
+     "task_id": 5,
+     "bddl_file": "libero_goal_task/push_the_plate_to_the_front_of_the_stove.bddl",
+     "instruction": "Push the cream cheese to the front of the stove",
+     "init_states": 50
+    },
+    {
+     "name": "libero_goal_task.06",
+     "task_id": 6,
+     "bddl_file": "libero_goal_task/put_the_cream_cheese_in_the_bowl.bddl",
+     "instruction": "put the wine bottle in the bowl",
+     "init_states": 50
+    },
+    {
+     "name": "libero_goal_task.07",
+     "task_id": 7,
+     "bddl_file": "libero_goal_task/turn_on_the_stove.bddl",
+     "instruction": "Turn off the stove",
+     "init_states": 50
+    },
+    {
+     "name": "libero_goal_task.08",
+     "task_id": 8,
+     "bddl_file": "libero_goal_task/put_the_bowl_on_the_plate.bddl",
+     "instruction": "Put the wine bottle on the plate",
+     "init_states": 50
+    },
+    {
+     "name": "libero_goal_task.09",
+     "task_id": 9,
+     "bddl_file": "libero_goal_task/put_the_wine_bottle_on_the_rack.bddl",
+     "instruction": "Put the cream cheese on the rack",
+     "init_states": 50
+    }
+   ]
+  },
+  "libero_spatial_swap": {
+   "task_set": "capgym_libero",
+   "tasks": [
+    {
+     "name": "libero_spatial_swap.00",
+     "task_id": 0,
+     "bddl_file": "libero_spatial_swap/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate.bddl",
+     "instruction": "Pick the akita black bowl between the plate and the ramekin and place it on the plate",
+     "init_states": 50
+    },
+    {
+     "name": "libero_spatial_swap.01",
+     "task_id": 1,
+     "bddl_file": "libero_spatial_swap/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate.bddl",
+     "instruction": "Pick the akita black bowl next to the ramekin and place it on the plate",
+     "init_states": 50
+    },
+    {
+     "name": "libero_spatial_swap.02",
+     "task_id": 2,
+     "bddl_file": "libero_spatial_swap/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate.bddl",
+     "instruction": "Pick the akita black bowl from table center and place it on the plate",
+     "init_states": 50
+    },
+    {
+     "name": "libero_spatial_swap.03",
+     "task_id": 3,
+     "bddl_file": "libero_spatial_swap/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate.bddl",
+     "instruction": "Pick the akita black bowl on the cookies box and place it on the plate",
+     "init_states": 50
+    },
+    {
+     "name": "libero_spatial_swap.04",
+     "task_id": 4,
+     "bddl_file": "libero_spatial_swap/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate.bddl",
+     "instruction": "Pick the akita black bowl in the top layer of the wooden cabinet and place it on the plate",
+     "init_states": 50
+    },
+    {
+     "name": "libero_spatial_swap.05",
+     "task_id": 5,
+     "bddl_file": "libero_spatial_swap/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate.bddl",
+     "instruction": "Pick the akita black bowl on the ramekin and place it on the plate",
+     "init_states": 50
+    },
+    {
+     "name": "libero_spatial_swap.06",
+     "task_id": 6,
+     "bddl_file": "libero_spatial_swap/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate.bddl",
+     "instruction": "Pick the akita black bowl next to the cookies box and place it on the plate",
+     "init_states": 50
+    },
+    {
+     "name": "libero_spatial_swap.07",
+     "task_id": 7,
+     "bddl_file": "libero_spatial_swap/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl",
+     "instruction": "Pick the akita black bowl on the stove and place it on the plate",
+     "init_states": 50
+    },
+    {
+     "name": "libero_spatial_swap.08",
+     "task_id": 8,
+     "bddl_file": "libero_spatial_swap/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate.bddl",
+     "instruction": "Pick the akita black bowl next to the plate and place it on the plate",
+     "init_states": 50
+    },
+    {
+     "name": "libero_spatial_swap.09",
+     "task_id": 9,
+     "bddl_file": "libero_spatial_swap/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate.bddl",
+     "instruction": "Pick the akita black bowl on the wooden cabinet and place it on the plate",
+     "init_states": 50
+    }
+   ]
+  },
+  "libero_spatial_task": {
+   "task_set": "capgym_libero",
+   "tasks": [
+    {
+     "name": "libero_spatial_task.00",
+     "task_id": 0,
+     "bddl_file": "libero_spatial_task/pick_up_the_black_bowl_between_the_plate_and_the_ramekin_and_place_it_on_the_plate.bddl",
+     "instruction": "Pick the akita black bowl not between the plate and the ramekin and place it on the plate",
+     "init_states": 50
+    },
+    {
+     "name": "libero_spatial_task.01",
+     "task_id": 1,
+     "bddl_file": "libero_spatial_task/pick_up_the_black_bowl_next_to_the_ramekin_and_place_it_on_the_plate.bddl",
+     "instruction": "Pick the akita black bowl next to the cookie box and place it on the plate",
+     "init_states": 50
+    },
+    {
+     "name": "libero_spatial_task.02",
+     "task_id": 2,
+     "bddl_file": "libero_spatial_task/pick_up_the_black_bowl_from_table_center_and_place_it_on_the_plate.bddl",
+     "instruction": "Pick the akita black bowl next to the plate and place it on the plate",
+     "init_states": 50
+    },
+    {
+     "name": "libero_spatial_task.03",
+     "task_id": 3,
+     "bddl_file": "libero_spatial_task/pick_up_the_black_bowl_on_the_cookie_box_and_place_it_on_the_plate.bddl",
+     "instruction": "Pick the akita black bowl on the top of the cabinet and place it on the plate",
+     "init_states": 50
+    },
+    {
+     "name": "libero_spatial_task.04",
+     "task_id": 4,
+     "bddl_file": "libero_spatial_task/pick_up_the_black_bowl_in_the_top_drawer_of_the_wooden_cabinet_and_place_it_on_the_plate.bddl",
+     "instruction": "Pick the akita black bowl on the top of the wooden cabinet and place it on the plate",
+     "init_states": 50
+    },
+    {
+     "name": "libero_spatial_task.05",
+     "task_id": 5,
+     "bddl_file": "libero_spatial_task/pick_up_the_black_bowl_on_the_ramekin_and_place_it_on_the_plate.bddl",
+     "instruction": "Pick the akita black bowl on the cookie box and place it on the plate",
+     "init_states": 50
+    },
+    {
+     "name": "libero_spatial_task.06",
+     "task_id": 6,
+     "bddl_file": "libero_spatial_task/pick_up_the_black_bowl_next_to_the_cookie_box_and_place_it_on_the_plate.bddl",
+     "instruction": "Pick the akita black bowl on the stove and place it on the plate",
+     "init_states": 50
+    },
+    {
+     "name": "libero_spatial_task.07",
+     "task_id": 7,
+     "bddl_file": "libero_spatial_task/pick_up_the_black_bowl_on_the_stove_and_place_it_on_the_plate.bddl",
+     "instruction": "Pick the akita black bowl on the top of the cabinet and place it on the plate",
+     "init_states": 50
+    },
+    {
+     "name": "libero_spatial_task.08",
+     "task_id": 8,
+     "bddl_file": "libero_spatial_task/pick_up_the_black_bowl_next_to_the_plate_and_place_it_on_the_plate.bddl",
+     "instruction": "Pick the akita black bowl next to the ramekin and place it on the plate",
+     "init_states": 50
+    },
+    {
+     "name": "libero_spatial_task.09",
+     "task_id": 9,
+     "bddl_file": "libero_spatial_task/pick_up_the_black_bowl_on_the_wooden_cabinet_and_place_it_on_the_plate.bddl",
+     "instruction": "Pick the akita black bowl on the stove and place it on the plate",
+     "init_states": 50
+    }
+   ]
+  }
+ },
+ "batch": {
+  "source": "capx/envs/scripts/run_libero_batch.py",
+  "base_config": "env_configs/libero/franka_libero_cap_agent0.yaml",
+  "suites": [
+   "libero_object_swap",
+   "libero_object_task",
+   "libero_goal_swap",
+   "libero_goal_task",
+   "libero_spatial_swap",
+   "libero_spatial_task"
+  ],
+  "max_steps": 8000,
+  "control_freq": 20,
+  "trials": "init_states",
+  "privileged": false,
+  "apis": [
+   "FrankaLiberoApiReducedSkillLibrary"
+  ]
+ },
+ "robosuite": {
+  "tasks": {
+   "cube_lifting": {
+    "task_set": "capgym_robosuite_cube",
+    "source": "env_configs/cube_lifting/franka_robosuite_cube_lifting.yaml",
+    "low_level": "franka_robosuite_cube_lift_low_level",
+    "env_class": "capx.envs.simulators.robosuite_cube_lift.FrankaRobosuiteCubeLiftLowLevel",
+    "privileged": false,
+    "enable_render": true,
+    "viser_debug": false,
+    "max_steps": 1500,
+    "max_steps_source": "capx/envs/simulators/robosuite_cube_lift.py:30",
+    "control_freq": 20,
+    "trials": 100,
+    "code_env": "capx.envs.tasks.franka.franka_lift.FrankaLiftCodeEnv",
+    "code_env_source": "capx/envs/tasks/franka/franka_lift.py:35-39",
+    "instruction": "pick up the red cube and lift it.",
+    "instruction_source": "capx/envs/tasks/franka/franka_lift.py:5"
+   },
+   "cube_stack": {
+    "task_set": "capgym_robosuite_cube",
+    "source": "env_configs/cube_stack/franka_robosuite_cube_stack.yaml",
+    "low_level": "franka_robosuite_cubes_low_level",
+    "env_class": "capx.envs.simulators.robosuite_cubes.FrankaRobosuiteCubesLowLevel",
+    "privileged": false,
+    "enable_render": true,
+    "viser_debug": false,
+    "max_steps": 1500,
+    "max_steps_source": "capx/envs/simulators/robosuite_cubes.py:36",
+    "control_freq": 20,
+    "trials": 100,
+    "code_env": "capx.envs.tasks.franka.franka_pick_place.FrankaPickPlaceCodeEnv",
+    "code_env_source": "capx/envs/tasks/franka/franka_pick_place.py:52-56",
+    "instruction": "Pick up the red cube and gently stack it on top of the green cube, then release it.",
+    "instruction_source": "capx/envs/tasks/franka/franka_pick_place.py:5"
+   },
+   "cube_restack": {
+    "task_set": "capgym_robosuite_cube",
+    "source": "env_configs/cube_restack/franka_robosuite_cube_restack.yaml",
+    "low_level": "franka_robosuite_cubes_restack_low_level",
+    "env_class": "capx.envs.simulators.robosuite_cubes_restack.FrankaRobosuiteCubesRestackLowLevel",
+    "privileged": false,
+    "enable_render": true,
+    "viser_debug": false,
+    "max_steps": 1500,
+    "max_steps_source": "capx/envs/simulators/robosuite_cubes_restack.py:251",
+    "control_freq": 20,
+    "trials": 100,
+    "code_env": "capx.envs.tasks.franka.franka_cube_restack.FrankaRestackCodeEnv",
+    "code_env_source": "capx/envs/tasks/franka/franka_cube_restack.py:58-62",
+    "instruction": "Gently place the red cube on top of the green cube and then open the gripper. Nothing should be dropped from a height.",
+    "instruction_source": "capx/envs/tasks/franka/franka_cube_restack.py:5"
+   },
+   "nut_assembly": {
+    "task_set": "capgym_robosuite_nut",
+    "source": "env_configs/nut_assembly/franka_robosuite_nut_assembly.yaml",
+    "low_level": "franka_robosuite_nut_assembly_low_level_visual",
+    "env_class": "capx.envs.simulators.robosuite_nut_assembly.FrankaRobosuiteNutAssemblyVisual",
+    "privileged": false,
+    "enable_render": true,
+    "viser_debug": false,
+    "max_steps": 1000,
+    "max_steps_source": "capx/envs/simulators/robosuite_nut_assembly.py:39",
+    "control_freq": 20,
+    "trials": 100,
+    "code_env": "capx.envs.tasks.franka.franka_nut_assembly.FrankaNutAssemblyCodeEnv",
+    "code_env_source": "capx/envs/tasks/franka/franka_nut_assembly.py:99-103",
+    "instruction": "grasp and insert the `brown square nut` onto the `brown square block`.",
+    "instruction_source": "capx/envs/tasks/franka/franka_nut_assembly.py:16"
+   },
+   "spill_wipe": {
+    "task_set": "capgym_robosuite_wipe",
+    "source": "env_configs/spill_wipe/franka_robosuite_spill_wipe.yaml",
+    "low_level": "franka_robosuite_spill_wipe_low_level",
+    "env_class": "capx.envs.simulators.robosuite_spill_wipe.FrankaRobosuiteSpillWipeLowLevel",
+    "privileged": false,
+    "enable_render": true,
+    "viser_debug": false,
+    "max_steps": 4000,
+    "max_steps_source": "capx/envs/simulators/robosuite_spill_wipe.py:31",
+    "control_freq": 20,
+    "trials": 100,
+    "code_env": "capx.envs.tasks.franka.franka_spill_wipe.FrankaSpillWipeCodeEnv",
+    "code_env_source": "capx/envs/tasks/franka/franka_spill_wipe.py:75-79",
+    "instruction": "wipe up the 'brown spill'.",
+    "instruction_source": "capx/envs/tasks/franka/franka_spill_wipe.py:5"
+   },
+   "two_arm_lift": {
+    "task_set": "capgym_robosuite_two_arm_lift",
+    "source": "env_configs/two_arm_lift/franka_robosuite_two_arm_lift.yaml",
+    "low_level": "two_arm_lift_robosuite",
+    "env_class": "capx.envs.simulators.robosuite_two_arm_lift.RobosuiteTwoArmLiftEnv",
+    "privileged": false,
+    "enable_render": true,
+    "viser_debug": false,
+    "max_steps": 5000,
+    "max_steps_source": "capx/envs/simulators/robosuite_two_arm_lift.py:35",
+    "control_freq": 20,
+    "trials": 100,
+    "code_env": "capx.envs.tasks.franka.two_arm_lift.TwoArmLiftCodeEnv",
+    "code_env_source": "capx/envs/tasks/franka/two_arm_lift.py:128-132",
+    "instruction": "The two arms should coordinate to lift a pot. Arm 0 should grasp handle 0, and Arm 1 should grasp handle 1. Then both arms should lift the pot up at the same height.",
+    "instruction_source": "capx/envs/tasks/franka/two_arm_lift.py:5"
+   },
+   "two_arm_handover": {
+    "task_set": "capgym_robosuite_two_arm_handover",
+    "source": "env_configs/two_arm_handover/two_arm_handover.yaml",
+    "low_level": "two_arm_handover_robosuite",
+    "env_class": "capx.envs.simulators.robosuite_handover.RobosuiteHandoverEnv",
+    "privileged": false,
+    "enable_render": true,
+    "viser_debug": false,
+    "max_steps": 5000,
+    "max_steps_source": "capx/envs/simulators/robosuite_handover.py:38",
+    "control_freq": 20,
+    "trials": 100,
+    "code_env": "capx.envs.tasks.franka.two_arm_handover.TwoArmHandoverCodeEnv",
+    "code_env_source": "capx/envs/tasks/franka/two_arm_handover.py:123-127",
+    "instruction": "Arm 0 should pick up the hammer, lift it, and hand it over to Arm 1. Arm 1 should then grasp the hammer handle (not hammer head). The z-value of hammer must be between 0.15 and 0.20 during the handover to count as a success.",
+    "instruction_source": "capx/envs/tasks/franka/two_arm_handover.py:5"
+   }
+  }
+ },
+ "behavior": {
+  "b1k_commit": "272ec5ca9936453c4a8fd335c4dfba61245e33ca",
+  "tasks": {
+   "r1pro_pick_up_radio": {
+    "task_set": "capgym_b1k",
+    "source": "env_configs/r1pro/r1pro_pick_up_radio.yaml",
+    "low_level": "_target_",
+    "env_class": "capx.envs.simulators.r1pro_b1k.R1ProBehaviourLowLevel",
+    "low_level_kwargs": {
+     "controller_cfg": "r1pro_primitives_radio.yaml"
+    },
+    "controller_cfg": "r1pro_primitives_radio.yaml",
+    "activity_name": "turning_on_radio",
+    "scene_model": "house_double_floor_lower",
+    "official_scene": "house_double_floor_lower",
+    "trials": 25,
+    "instruction": "pick up the red radio on the table.",
+    "instruction_source": "capx/envs/tasks/r1pro/r1pro_pickup_radio.py:5",
+    "scoring": "capx_lift",
+    "construction": "constructs",
+    "construction_note": ""
+   },
+   "r1pro_pick_up_trash": {
+    "task_set": "capgym_b1k",
+    "source": "env_configs/r1pro/r1pro_pick_up_trash.yaml",
+    "low_level": "r1pro_b1k_low_level",
+    "env_class": "capx.envs.simulators.r1pro_b1k.R1ProBehaviourLowLevel",
+    "low_level_kwargs": {
+     "privileged": false,
+     "enable_render": true,
+     "viser_debug": false
+    },
+    "controller_cfg": "r1pro_primitives.yaml",
+    "activity_name": "picking_up_trash",
+    "scene_model": "house_double_floor_lower",
+    "official_scene": "house_double_floor_lower",
+    "trials": 25,
+    "instruction": "pick up the blue can of soda on the floor.",
+    "instruction_source": "capx/envs/tasks/r1pro/r1pro_pickup_trash.py:5",
+    "scoring": "capx_lift",
+    "construction": "constructs",
+    "construction_note": ""
+   }
+  },
+  "excluded_variants": [
+   "r1pro_pick_up_radio_multiturn_vdm",
+   "r1pro_pick_up_radio_oracle",
+   "r1pro_pick_up_trash_multiturn_vdm",
+   "r1pro_pick_up_trash_oracle"
+  ]
+ }
+}

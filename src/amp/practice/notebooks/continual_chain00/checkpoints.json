@@ -1,0 +1,22 @@
+[
+ {
+  "checkpoint": 10,
+  "folder": "ck10",
+  "sha": "6e31286aaa0a49c5534ab6f3da59e3ecc4d45ddf17905d9be674a8d5b7e4a12f"
+ },
+ {
+  "checkpoint": 20,
+  "folder": "ck20",
+  "sha": "411c941161884c1120aad7250c4dc813c4ffcd4f6bd8869cf744207c2c9a19fa"
+ },
+ {
+  "checkpoint": 30,
+  "folder": "ck30",
+  "sha": "3e918860dba1bc6ee0c1a5e2ca00e61241a609f8ffd253f388e5532e768a7a62"
+ },
+ {
+  "checkpoint": 42,
+  "folder": "ck42",
+  "sha": "0dc34f5248a733e055c42701324ed3d3e6a69aa9a643af895c863b91387e3cbb"
+ }
+]

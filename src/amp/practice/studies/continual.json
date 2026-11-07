@@ -1,0 +1,34 @@
+{
+ "name": "rd_continual",
+ "tag": "rdcl",
+ "label": "RoboDojo, 42 tasks: one notebook of up to 120 KB learned continually, one task at a time, in one pass in a random order (seed-0 layout 5; a Generalization task runs both configs), checkpoint evals every 10 places (seed-1, 5 episodes per task)",
+ "corpus": "robodojo-seed0",
+ "tasks": "all",
+ "epochs": 1,
+ "layouts": [5],
+ "seed": 20261027,
+ "round_size": 1,
+ "harness": "amp1_basic_rgb_only_nocal_rdrecipe_rdnotes",
+ "model": "opus-5.5",
+ "reasoning": "high",
+ "prompt": "amp1",
+ "gpus": "auto",
+ "runs": "runs/practice",
+ "eval": {
+  "corpus": "robodojo-seed1",
+  "episodes": 5,
+  "every": 10,
+  "unseen": true,
+  "epoch_end": true
+ },
+ "baseline": "runs/practice/k0-seed1-x5",
+ "full_baselines": {
+  "robodojo-seed2": "runs/paper/fig4-zero-shot"
+ },
+ "embodiment": "Every task of this benchmark runs on the same robot: the same two ARX X5 arms with their grippers, at the same table, with the same cameras and the same API. The tasks, their objects and their scenes differ.",
+ "max_bytes": 120000,
+ "debrief": {
+  "max_turns": 100,
+  "max_cost_usd": 20
+ }
+}

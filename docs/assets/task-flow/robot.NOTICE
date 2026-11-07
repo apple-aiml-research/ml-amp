@@ -1,0 +1,14 @@
+robot.js in this directory holds meshes and colours adapted from RoboLab v0.3.1
+(https://github.com/NVlabs/RoboLab, commit 9db0aaf09d9fe5d4f37b168320788258c7012463),
+assets/robots/franka_robotiq_2f_85_flattened.usd.
+
+Copyright (c) 2026 NVIDIA CORPORATION & AFFILIATES. All rights reserved.
+
+Changes made by AMP: each link's meshes were grouped by material colour and simplified to 12% of
+their triangles (19% for the gripper; parts under 300 triangles kept whole), and the gripper
+adapter's cylinder was kept as its size, for the project page.
+
+robot.js is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0
+International licence (CC BY-NC-SA 4.0), not under the licence in the LICENSE file at the root of
+this repository, which covers the rest of it. Legal code:
+https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode

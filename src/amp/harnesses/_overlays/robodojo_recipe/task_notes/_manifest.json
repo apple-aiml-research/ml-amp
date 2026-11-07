@@ -1,0 +1,267 @@
+{
+ "schema": 1,
+ "generated_by": "tools/robodojo_task_notes.py",
+ "kind": "recipe",
+ "source": {
+  "repo": "XPolicyLab",
+  "commit": "53c5da5a01bc720d1cf0e6ab6ed212e8cef0eda2",
+  "path": "policy/GPT_6_Astra_Direct_EEF/inspect/recipes",
+  "licence": "Apache-2.0",
+  "content": "RoboDojo's public wiki description and score ladder"
+ },
+ "difference": "recipe + notes is the source file with 'ladder, followed by notes on how this task goes that are not from the wiki.' read as 'ladder.': a recipe served without the notes must not announce them, and the notes are appended after that sentence",
+ "files": [
+  {
+   "task": "align_blocks",
+   "file": "align_blocks.md",
+   "source_sha256": "4d00257cabdbd93d5d05b03fd2ad996aff11705e963ba9856f8e554b28e9f7f6",
+   "sha256": "4d00257cabdbd93d5d05b03fd2ad996aff11705e963ba9856f8e554b28e9f7f6"
+  },
+  {
+   "task": "arrange_largest_number",
+   "file": "arrange_largest_number.md",
+   "source_sha256": "ba4b417f7c7a1bc342e6cfd58db5959ec1b60032f51369366c612ba51bfd0869",
+   "sha256": "ba4b417f7c7a1bc342e6cfd58db5959ec1b60032f51369366c612ba51bfd0869"
+  },
+  {
+   "task": "build_tower",
+   "file": "build_tower.md",
+   "source_sha256": "24b704d4742fd33cdb9def2d8ffc8e4dd5967e54f89af77c4c0481b613275d35",
+   "sha256": "24b704d4742fd33cdb9def2d8ffc8e4dd5967e54f89af77c4c0481b613275d35"
+  },
+  {
+   "task": "classify_objects",
+   "file": "classify_objects.md",
+   "source_sha256": "96134dc3decd5cc5e252c54937755deddb13eb6aa880d97ad05d2fdf8fad28f9",
+   "sha256": "96134dc3decd5cc5e252c54937755deddb13eb6aa880d97ad05d2fdf8fad28f9"
+  },
+  {
+   "task": "classify_objects_by_language",
+   "file": "classify_objects_by_language.md",
+   "source_sha256": "3530200227ed6e177bc17d5f6c91da02f49f587953e22b890d3fe53c7a43b11e",
+   "sha256": "3530200227ed6e177bc17d5f6c91da02f49f587953e22b890d3fe53c7a43b11e"
+  },
+  {
+   "task": "cover_blocks",
+   "file": "cover_blocks.md",
+   "source_sha256": "4b698369883233a66ad2b011fde1854b17e88560351138ad6e930b49b1dc374b",
+   "sha256": "4b698369883233a66ad2b011fde1854b17e88560351138ad6e930b49b1dc374b"
+  },
+  {
+   "task": "deposit_coin",
+   "file": "deposit_coin.md",
+   "source_sha256": "7c987081bff9fb534e6f75470892e3eaed9c7549bd474d8d8cd922c8df686bbb",
+   "sha256": "7c987081bff9fb534e6f75470892e3eaed9c7549bd474d8d8cd922c8df686bbb"
+  },
+  {
+   "task": "fasten_screws",
+   "file": "fasten_screws.md",
+   "source_sha256": "afb2434ff932d9166062065e1e0e1a6680cb51c3a6888ec27aac465085c0a94e",
+   "sha256": "afb2434ff932d9166062065e1e0e1a6680cb51c3a6888ec27aac465085c0a94e"
+  },
+  {
+   "task": "fill_egg_holder",
+   "file": "fill_egg_holder.md",
+   "source_sha256": "a59a52424f0a835dc2c8c9267fa45fc393e8802c857737cce7f375c4f47438de",
+   "sha256": "a59a52424f0a835dc2c8c9267fa45fc393e8802c857737cce7f375c4f47438de"
+  },
+  {
+   "task": "fill_pen_holder",
+   "file": "fill_pen_holder.md",
+   "source_sha256": "e551211d80274e3fd22f60fbbc2ed7f01f2f7eb5d5e0ffb7229beb50b36bdbdd",
+   "sha256": "e551211d80274e3fd22f60fbbc2ed7f01f2f7eb5d5e0ffb7229beb50b36bdbdd"
+  },
+  {
+   "task": "fold_clothes",
+   "file": "fold_clothes.md",
+   "source_sha256": "70c8fec2c73f6b6cfb583532e7070b86151e755ef7194079757e60e5496644ff",
+   "sha256": "70c8fec2c73f6b6cfb583532e7070b86151e755ef7194079757e60e5496644ff"
+  },
+  {
+   "task": "general_pickup",
+   "file": "general_pickup.md",
+   "source_sha256": "2d2b2d499f1ebc8b2effc947ee1983ed857626c29aa185643b0e9333b587dcda",
+   "sha256": "2d2b2d499f1ebc8b2effc947ee1983ed857626c29aa185643b0e9333b587dcda"
+  },
+  {
+   "task": "hang_mugs",
+   "file": "hang_mugs.md",
+   "source_sha256": "31e253ff6a5240ae87f6ecd30d07b9cee553e695175649bb87965ab9230dd8d8",
+   "sha256": "31e253ff6a5240ae87f6ecd30d07b9cee553e695175649bb87965ab9230dd8d8"
+  },
+  {
+   "task": "imitate_sorting_sequence",
+   "file": "imitate_sorting_sequence.md",
+   "source_sha256": "7cb191a844799bd0acea0baccabd66ed70532227013096e48edfab9c028825ac",
+   "sha256": "b4a94c5e9b71b1d51b82cfec16e3dca8fc1e88729734d3fefcfc2be6e3c445d9"
+  },
+  {
+   "task": "insert_key",
+   "file": "insert_key.md",
+   "source_sha256": "2552829d48617e98da8a3159e1ccc814da67b4abb0f9da1d4285a092512166f6",
+   "sha256": "2552829d48617e98da8a3159e1ccc814da67b4abb0f9da1d4285a092512166f6"
+  },
+  {
+   "task": "insert_tubes",
+   "file": "insert_tubes.md",
+   "source_sha256": "4828d8e10ae6d43b3ec2d61035ee8ce2d2670b80018d02ac6b5a0348d8b770ae",
+   "sha256": "4828d8e10ae6d43b3ec2d61035ee8ce2d2670b80018d02ac6b5a0348d8b770ae"
+  },
+  {
+   "task": "make_kong",
+   "file": "make_kong.md",
+   "source_sha256": "3569b1cf8d3fbfe30d2432e4d7a891b0b170ee478318996f0f7908f099634dcb",
+   "sha256": "b4c52c5bc21b07065abda2a5b17157ba2181ef19da4cb2c8e012006f597c9418"
+  },
+  {
+   "task": "make_toast",
+   "file": "make_toast.md",
+   "source_sha256": "77dfd5e30b778d1774325ef38f649ef4311ba1872dbeb680619e303a842b5a0d",
+   "sha256": "77dfd5e30b778d1774325ef38f649ef4311ba1872dbeb680619e303a842b5a0d"
+  },
+  {
+   "task": "match_and_pick_from_conveyor",
+   "file": "match_and_pick_from_conveyor.md",
+   "source_sha256": "77da76a4ed0dde958d2b0417815b25e5c8e2c56844a956486920271f7f0657dd",
+   "sha256": "73029c8ed6e746b9f196712bb9d83121056a7ce4588d9134f3e4fb119e13d180"
+  },
+  {
+   "task": "organize_table",
+   "file": "organize_table.md",
+   "source_sha256": "c5c50cac36596e616ee4a5380fef3d353b665b249435f0cdb665bf34f9dec048",
+   "sha256": "c5c50cac36596e616ee4a5380fef3d353b665b249435f0cdb665bf34f9dec048"
+  },
+  {
+   "task": "pack_objects_into_box",
+   "file": "pack_objects_into_box.md",
+   "source_sha256": "32243dc60718e392d11ed0dfe11a558684bc0864ac36571ecb33a6aba9150df7",
+   "sha256": "32243dc60718e392d11ed0dfe11a558684bc0864ac36571ecb33a6aba9150df7"
+  },
+  {
+   "task": "pick_from_conveyor_by_image",
+   "file": "pick_from_conveyor_by_image.md",
+   "source_sha256": "0c695e538f9d8b4323a0bc9e8844b6ee76ded2ad5d305d20d73d660883a6bcf7",
+   "sha256": "0c695e538f9d8b4323a0bc9e8844b6ee76ded2ad5d305d20d73d660883a6bcf7"
+  },
+  {
+   "task": "play_Xylophone",
+   "file": "play_Xylophone.md",
+   "source_sha256": "5080922fffa994571b6455088226490232e42142b451f8adb75d2c22ce4cc9ea",
+   "sha256": "5080922fffa994571b6455088226490232e42142b451f8adb75d2c22ce4cc9ea"
+  },
+  {
+   "task": "play_stacking_toy",
+   "file": "play_stacking_toy.md",
+   "source_sha256": "93baff4355c3828a567568bcde7b99a725a94d04def99bd21a8dc16e76a68b8a",
+   "sha256": "93baff4355c3828a567568bcde7b99a725a94d04def99bd21a8dc16e76a68b8a"
+  },
+  {
+   "task": "play_tic_tac_toe",
+   "file": "play_tic_tac_toe.md",
+   "source_sha256": "828ff07a28af5c08f7b9ff8359bfd5794db2a07b6c201160f7baca787fac3e8a",
+   "sha256": "8de089acc036d1aeb52312675fec69f2e274b0f30962b4ef1f312347d993c471"
+  },
+  {
+   "task": "plug_in_charger",
+   "file": "plug_in_charger.md",
+   "source_sha256": "2f270f252ed3e68ccab6c70e982b8e8e361f51a9fbb8b93a1bb3c66066a4515c",
+   "sha256": "2f270f252ed3e68ccab6c70e982b8e8e361f51a9fbb8b93a1bb3c66066a4515c"
+  },
+  {
+   "task": "pour_balls_into_vase",
+   "file": "pour_balls_into_vase.md",
+   "source_sha256": "cd9f12f920863ddc9e825c5689251e3d68a39bdfa4e7e30adbfb751933257d14",
+   "sha256": "cd9f12f920863ddc9e825c5689251e3d68a39bdfa4e7e30adbfb751933257d14"
+  },
+  {
+   "task": "pour_by_language",
+   "file": "pour_by_language.md",
+   "source_sha256": "c704bc325b2a16c1840e92f674f9d406d497ba3ac336dd1236c4b16a350400b5",
+   "sha256": "c704bc325b2a16c1840e92f674f9d406d497ba3ac336dd1236c4b16a350400b5"
+  },
+  {
+   "task": "pour_liquid_into_cup",
+   "file": "pour_liquid_into_cup.md",
+   "source_sha256": "c050da3884455eb2eaffa47eb7457e70aa1736c51f4c80efacf382f580dfebec",
+   "sha256": "c050da3884455eb2eaffa47eb7457e70aa1736c51f4c80efacf382f580dfebec"
+  },
+  {
+   "task": "press_by_number",
+   "file": "press_by_number.md",
+   "source_sha256": "7b8bb6bde0dbc478e5e0e02437ee0179504fa4a454e001370581c3c2f64a5026",
+   "sha256": "7b8bb6bde0dbc478e5e0e02437ee0179504fa4a454e001370581c3c2f64a5026"
+  },
+  {
+   "task": "push_T",
+   "file": "push_T.md",
+   "source_sha256": "2ac3bf768070cbad322b8deead6e894158648dbb9ecfafc3fee58d28820acad7",
+   "sha256": "2ac3bf768070cbad322b8deead6e894158648dbb9ecfafc3fee58d28820acad7"
+  },
+  {
+   "task": "put_bottles_into_dustbin",
+   "file": "put_bottles_into_dustbin.md",
+   "source_sha256": "5044fbecbe0996592a8f63c2a3721dcd6753ea1255f2f757601f7b1ea1edc8ea",
+   "sha256": "5044fbecbe0996592a8f63c2a3721dcd6753ea1255f2f757601f7b1ea1edc8ea"
+  },
+  {
+   "task": "solve_equation",
+   "file": "solve_equation.md",
+   "source_sha256": "d7f8a48b4d9aff4fd2192012262b31bc8535b86e8dea15caebc00e0f537b3694",
+   "sha256": "d7f8a48b4d9aff4fd2192012262b31bc8535b86e8dea15caebc00e0f537b3694"
+  },
+  {
+   "task": "sort_nesting_dolls_by_size",
+   "file": "sort_nesting_dolls_by_size.md",
+   "source_sha256": "9e8267af65ed8053b00536607d312a40f2ca39dec19977818ac1ce74beb50c09",
+   "sha256": "9e8267af65ed8053b00536607d312a40f2ca39dec19977818ac1ce74beb50c09"
+  },
+  {
+   "task": "stack_blocks",
+   "file": "stack_blocks.md",
+   "source_sha256": "b4800dcacd62530e450120ebe5d094a973793cbf73bb0fe2e66ece1bdfab1ed6",
+   "sha256": "b4800dcacd62530e450120ebe5d094a973793cbf73bb0fe2e66ece1bdfab1ed6"
+  },
+  {
+   "task": "stack_blocks_by_language",
+   "file": "stack_blocks_by_language.md",
+   "source_sha256": "272d640a7c3d896240a60b3ab09f4ef436406e086e550a8f6a1c8cf9c087ae2c",
+   "sha256": "272d640a7c3d896240a60b3ab09f4ef436406e086e550a8f6a1c8cf9c087ae2c"
+  },
+  {
+   "task": "stack_bowls",
+   "file": "stack_bowls.md",
+   "source_sha256": "abfc287ed9db110cf08b76dc20fd77f20808807b207a615ae1f475af74a0d0fa",
+   "sha256": "abfc287ed9db110cf08b76dc20fd77f20808807b207a615ae1f475af74a0d0fa"
+  },
+  {
+   "task": "store_laptop_and_headphones",
+   "file": "store_laptop_and_headphones.md",
+   "source_sha256": "3133bf03129ea5d464f25202f347184f52438bb42395bb769c7234d1805b588f",
+   "sha256": "3133bf03129ea5d464f25202f347184f52438bb42395bb769c7234d1805b588f"
+  },
+  {
+   "task": "store_tools_in_toolbox",
+   "file": "store_tools_in_toolbox.md",
+   "source_sha256": "8324a2df80e45e0aae9bc9aa4034ac1b132633630ea87e01fd629d22b75986d4",
+   "sha256": "8324a2df80e45e0aae9bc9aa4034ac1b132633630ea87e01fd629d22b75986d4"
+  },
+  {
+   "task": "swap_T",
+   "file": "swap_T.md",
+   "source_sha256": "85625ae8e2352da32b72424bf05f97be29371bcf2fef9c3c51facdd13203b866",
+   "sha256": "85625ae8e2352da32b72424bf05f97be29371bcf2fef9c3c51facdd13203b866"
+  },
+  {
+   "task": "swap_blocks",
+   "file": "swap_blocks.md",
+   "source_sha256": "2938d1aa85796bb978fe1bcda582d8a7dc5e03eb62e0762108045832e2bbb57a",
+   "sha256": "2938d1aa85796bb978fe1bcda582d8a7dc5e03eb62e0762108045832e2bbb57a"
+  },
+  {
+   "task": "sweep_blocks",
+   "file": "sweep_blocks.md",
+   "source_sha256": "200de7d6ff589ae8add6be59c41ba43df809eae0ef553074e6a4ff20729666cc",
+   "sha256": "200de7d6ff589ae8add6be59c41ba43df809eae0ef553074e6a4ff20729666cc"
+  }
+ ]
+}

@@ -1,0 +1,893 @@
+{
+ "schema": 1,
+ "generated_by": "AMP, from the RoboDojo checkout at robodojo_commit",
+ "robodojo_commit": "09bd5f5e762b949f5858ece31347ce62057b3a5e",
+ "pins": {
+  "robodojo": "09bd5f5e762b949f5858ece31347ce62057b3a5e",
+  "xpolicylab": "53c5da5a01bc720d1cf0e6ab6ed212e8cef0eda2",
+  "isaaclab": "afca7b09d60d8beb9c1cb28b43066499940b969b",
+  "curobo": "d17b54ce32cba095c0b000c4c58777075d11de0e",
+  "hf_revision": "35efbc7dedfdbeeb6e95fb749bd885d73d483e41"
+ },
+ "task_set": "robodojo",
+ "seeds": [
+  0,
+  1,
+  2
+ ],
+ "common": {
+  "data_source": "datagen",
+  "scene_config": "default",
+  "robot_config": "dual_x5",
+  "camera_config": "camera_config",
+  "render_interval": 10,
+  "robot_self_collision": true,
+  "eval_nums": 50
+ },
+ "tasks": [
+  {
+   "name": "align_blocks",
+   "base": "align_blocks",
+   "random": false,
+   "dimension": "open",
+   "eval_nums": 50,
+   "step_lim": 200,
+   "robot_config": "dual_x5",
+   "scene_config": "default",
+   "layouts": {
+    "0": 55,
+    "1": 55,
+    "2": 55
+   },
+   "data_source": "datagen"
+  },
+  {
+   "name": "arrange_largest_number",
+   "base": "arrange_largest_number",
+   "random": false,
+   "dimension": "generalization",
+   "eval_nums": 25,
+   "step_lim": 1050,
+   "robot_config": "dual_x5",
+   "scene_config": "default",
+   "layouts": {
+    "0": 30,
+    "1": 30,
+    "2": 30
+   },
+   "data_source": "datagen"
+  },
+  {
+   "name": "arrange_largest_number_random",
+   "base": "arrange_largest_number",
+   "random": true,
+   "dimension": "generalization",
+   "eval_nums": 25,
+   "step_lim": 1050,
+   "robot_config": "dual_x5",
+   "scene_config": "default",
+   "layouts": {
+    "0": 30,
+    "1": 30,
+    "2": 30
+   },
+   "data_source": "datagen"
+  },
+  {
+   "name": "build_tower",
+   "base": "build_tower",
+   "random": false,
+   "dimension": "precision",
+   "eval_nums": 50,
+   "step_lim": 1050,
+   "robot_config": "dual_x5",
+   "scene_config": "default",
+   "layouts": {
+    "0": 55,
+    "1": 55,
+    "2": 55
+   },
+   "data_source": "datagen"
+  },
+  {
+   "name": "classify_objects",
+   "base": "classify_objects",
+   "random": false,
+   "dimension": "long-horizon",
+   "eval_nums": 50,
+   "step_lim": 1100,
+   "robot_config": "dual_x5",
+   "scene_config": "default",
+   "layouts": {
+    "0": 55,
+    "1": 55,
+    "2": 55
+   },
+   "data_source": "teleop"
+  },
+  {
+   "name": "classify_objects_by_language",
+   "base": "classify_objects_by_language",
+   "random": false,
+   "dimension": "open",
+   "eval_nums": 50,
+   "step_lim": 1100,
+   "robot_config": "dual_x5",
+   "scene_config": "default",
+   "layouts": {
+    "0": 55,
+    "1": 55,
+    "2": 55
+   },
+   "data_source": "datagen"
+  },
+  {
+   "name": "cover_blocks",
+   "base": "cover_blocks",
+   "random": false,
+   "dimension": "memory",
+   "eval_nums": 50,
+   "step_lim": 800,
+   "robot_config": "dual_x5",
+   "scene_config": "default",
+   "layouts": {
+    "0": 55,
+    "1": 55,
+    "2": 55
+   },
+   "data_source": "datagen"
+  },
+  {
+   "name": "deposit_coin",
+   "base": "deposit_coin",
+   "random": false,
+   "dimension": "precision",
+   "eval_nums": 50,
+   "step_lim": 300,
+   "robot_config": "dual_x5",
+   "scene_config": "default",
+   "layouts": {
+    "0": 60,
+    "1": 60,
+    "2": 60
+   },
+   "data_source": "datagen"
+  },
+  {
+   "name": "fasten_screws",
+   "base": "fasten_screws",
+   "random": false,
+   "dimension": "precision",
+   "eval_nums": 50,
+   "step_lim": 1900,
+   "robot_config": "dual_x5",
+   "scene_config": "default",
+   "layouts": {
+    "0": 55,
+    "1": 55,
+    "2": 55
+   },
+   "data_source": "datagen"
+  },
+  {
+   "name": "fill_egg_holder",
+   "base": "fill_egg_holder",
+   "random": false,
+   "dimension": "long-horizon",
+   "eval_nums": 50,
+   "step_lim": 700,
+   "robot_config": "dual_x5",
+   "scene_config": "default",
+   "layouts": {
+    "0": 65,
+    "1": 65,
+    "2": 65
+   },
+   "data_source": "teleop"
+  },
+  {
+   "name": "fill_pen_holder",
+   "base": "fill_pen_holder",
+   "random": false,
+   "dimension": "long-horizon",
+   "eval_nums": 50,
+   "step_lim": 1100,
+   "robot_config": "dual_x5",
+   "scene_config": "default",
+   "layouts": {
+    "0": 55,
+    "1": 55,
+    "2": 55
+   },
+   "data_source": "teleop"
+  },
+  {
+   "name": "fold_clothes",
+   "base": "fold_clothes",
+   "random": false,
+   "dimension": "generalization",
+   "eval_nums": 25,
+   "step_lim": 500,
+   "robot_config": "dual_x5",
+   "scene_config": "default",
+   "layouts": {
+    "0": 55,
+    "1": 55,
+    "2": 55
+   },
+   "data_source": "datagen"
+  },
+  {
+   "name": "fold_clothes_random",
+   "base": "fold_clothes",
+   "random": true,
+   "dimension": "generalization",
+   "eval_nums": 25,
+   "step_lim": 500,
+   "robot_config": "dual_x5",
+   "scene_config": "default",
+   "layouts": {
+    "0": 30,
+    "1": 30,
+    "2": 30
+   },
+   "data_source": "datagen"
+  },
+  {
+   "name": "general_pickup",
+   "base": "general_pickup",
+   "random": false,
+   "dimension": "open",
+   "eval_nums": 50,
+   "step_lim": 200,
+   "robot_config": "dual_x5",
+   "scene_config": "default",
+   "layouts": {
+    "0": 55,
+    "1": 55,
+    "2": 55
+   },
+   "data_source": "datagen"
+  },
+  {
+   "name": "hang_mugs",
+   "base": "hang_mugs",
+   "random": false,
+   "dimension": "generalization",
+   "eval_nums": 25,
+   "step_lim": 800,
+   "robot_config": "dual_x5",
+   "scene_config": "default",
+   "layouts": {
+    "0": 30,
+    "1": 30,
+    "2": 30
+   },
+   "data_source": "teleop"
+  },
+  {
+   "name": "hang_mugs_random",
+   "base": "hang_mugs",
+   "random": true,
+   "dimension": "generalization",
+   "eval_nums": 25,
+   "step_lim": 800,
+   "robot_config": "dual_x5",
+   "scene_config": "default",
+   "layouts": {
+    "0": 30,
+    "1": 30,
+    "2": 30
+   },
+   "data_source": "teleop"
+  },
+  {
+   "name": "imitate_sorting_sequence",
+   "base": "imitate_sorting_sequence",
+   "random": false,
+   "dimension": "memory",
+   "eval_nums": 50,
+   "step_lim": 1600,
+   "robot_config": "dual_x5_and_franka_competition",
+   "scene_config": "default",
+   "layouts": {
+    "0": 65,
+    "1": 65,
+    "2": 65
+   },
+   "data_source": "datagen"
+  },
+  {
+   "name": "insert_key",
+   "base": "insert_key",
+   "random": false,
+   "dimension": "precision",
+   "eval_nums": 50,
+   "step_lim": 300,
+   "robot_config": "dual_x5",
+   "scene_config": "default",
+   "layouts": {
+    "0": 55,
+    "1": 55,
+    "2": 55
+   },
+   "data_source": "datagen"
+  },
+  {
+   "name": "insert_tubes",
+   "base": "insert_tubes",
+   "random": false,
+   "dimension": "precision",
+   "eval_nums": 50,
+   "step_lim": 500,
+   "robot_config": "dual_x5",
+   "scene_config": "default",
+   "layouts": {
+    "0": 55,
+    "1": 55,
+    "2": 55
+   },
+   "data_source": "datagen"
+  },
+  {
+   "name": "make_kong",
+   "base": "make_kong",
+   "random": false,
+   "dimension": "long-horizon",
+   "eval_nums": 50,
+   "step_lim": 600,
+   "robot_config": "dual_x5_and_franka_competition",
+   "scene_config": "default",
+   "layouts": {
+    "0": 65,
+    "1": 65,
+    "2": 65
+   },
+   "data_source": "datagen"
+  },
+  {
+   "name": "make_toast",
+   "base": "make_toast",
+   "random": false,
+   "dimension": "generalization",
+   "eval_nums": 25,
+   "step_lim": 1400,
+   "robot_config": "dual_x5",
+   "scene_config": "default",
+   "layouts": {
+    "0": 70,
+    "1": 70,
+    "2": 70
+   },
+   "data_source": "teleop"
+  },
+  {
+   "name": "make_toast_random",
+   "base": "make_toast",
+   "random": true,
+   "dimension": "generalization",
+   "eval_nums": 25,
+   "step_lim": 1400,
+   "robot_config": "dual_x5",
+   "scene_config": "default",
+   "layouts": {
+    "0": 45,
+    "1": 45,
+    "2": 45
+   },
+   "data_source": "teleop"
+  },
+  {
+   "name": "match_and_pick_from_conveyor",
+   "base": "match_and_pick_from_conveyor",
+   "random": false,
+   "dimension": "memory",
+   "eval_nums": 50,
+   "step_lim": 700,
+   "robot_config": "dual_x5",
+   "scene_config": "conveyor",
+   "layouts": {
+    "0": 55,
+    "1": 55,
+    "2": 55
+   },
+   "data_source": "teleop"
+  },
+  {
+   "name": "organize_table",
+   "base": "organize_table",
+   "random": false,
+   "dimension": "long-horizon",
+   "eval_nums": 50,
+   "step_lim": 1000,
+   "robot_config": "dual_x5",
+   "scene_config": "default",
+   "layouts": {
+    "0": 55,
+    "1": 55,
+    "2": 55
+   },
+   "data_source": "teleop"
+  },
+  {
+   "name": "pack_objects_into_box",
+   "base": "pack_objects_into_box",
+   "random": false,
+   "dimension": "generalization",
+   "eval_nums": 25,
+   "step_lim": 1300,
+   "robot_config": "dual_x5",
+   "scene_config": "default",
+   "layouts": {
+    "0": 55,
+    "1": 55,
+    "2": 55
+   },
+   "data_source": "teleop"
+  },
+  {
+   "name": "pack_objects_into_box_random",
+   "base": "pack_objects_into_box",
+   "random": true,
+   "dimension": "generalization",
+   "eval_nums": 25,
+   "step_lim": 1300,
+   "robot_config": "dual_x5",
+   "scene_config": "default",
+   "layouts": {
+    "0": 30,
+    "1": 30,
+    "2": 30
+   },
+   "data_source": "teleop"
+  },
+  {
+   "name": "pick_from_conveyor_by_image",
+   "base": "pick_from_conveyor_by_image",
+   "random": false,
+   "dimension": "open",
+   "eval_nums": 50,
+   "step_lim": 700,
+   "robot_config": "dual_x5",
+   "scene_config": "conveyor",
+   "layouts": {
+    "0": 55,
+    "1": 55,
+    "2": 55
+   },
+   "data_source": "datagen"
+  },
+  {
+   "name": "play_Xylophone",
+   "base": "play_Xylophone",
+   "random": false,
+   "dimension": "precision",
+   "eval_nums": 50,
+   "step_lim": 500,
+   "robot_config": "dual_x5",
+   "scene_config": "default",
+   "layouts": {
+    "0": 55,
+    "1": 55,
+    "2": 55
+   },
+   "data_source": "datagen"
+  },
+  {
+   "name": "play_stacking_toy",
+   "base": "play_stacking_toy",
+   "random": false,
+   "dimension": "long-horizon",
+   "eval_nums": 50,
+   "step_lim": 1200,
+   "robot_config": "dual_x5",
+   "scene_config": "default",
+   "layouts": {
+    "0": 55,
+    "1": 55,
+    "2": 55
+   },
+   "data_source": "datagen"
+  },
+  {
+   "name": "play_tic_tac_toe",
+   "base": "play_tic_tac_toe",
+   "random": false,
+   "dimension": "long-horizon",
+   "eval_nums": 50,
+   "step_lim": 1100,
+   "robot_config": "dual_x5_and_franka_competition",
+   "scene_config": "default",
+   "layouts": {
+    "0": 75,
+    "1": 75,
+    "2": 75
+   },
+   "data_source": "datagen"
+  },
+  {
+   "name": "plug_in_charger",
+   "base": "plug_in_charger",
+   "random": false,
+   "dimension": "precision",
+   "eval_nums": 50,
+   "step_lim": 400,
+   "robot_config": "dual_x5",
+   "scene_config": "default",
+   "layouts": {
+    "0": 55,
+    "1": 55,
+    "2": 55
+   },
+   "data_source": "datagen"
+  },
+  {
+   "name": "pour_balls_into_vase",
+   "base": "pour_balls_into_vase",
+   "random": false,
+   "dimension": "precision",
+   "eval_nums": 50,
+   "step_lim": 600,
+   "robot_config": "dual_x5",
+   "scene_config": "default",
+   "layouts": {
+    "0": 55,
+    "1": 55,
+    "2": 55
+   },
+   "data_source": "teleop"
+  },
+  {
+   "name": "pour_by_language",
+   "base": "pour_by_language",
+   "random": false,
+   "dimension": "open",
+   "eval_nums": 50,
+   "step_lim": 800,
+   "robot_config": "dual_x5",
+   "scene_config": "default",
+   "layouts": {
+    "0": 55,
+    "1": 55,
+    "2": 55
+   },
+   "data_source": "datagen"
+  },
+  {
+   "name": "pour_liquid_into_cup",
+   "base": "pour_liquid_into_cup",
+   "random": false,
+   "dimension": "generalization",
+   "eval_nums": 25,
+   "step_lim": 400,
+   "robot_config": "dual_x5",
+   "scene_config": "default",
+   "layouts": {
+    "0": 55,
+    "1": 55,
+    "2": 55
+   },
+   "data_source": "teleop"
+  },
+  {
+   "name": "pour_liquid_into_cup_random",
+   "base": "pour_liquid_into_cup",
+   "random": true,
+   "dimension": "generalization",
+   "eval_nums": 25,
+   "step_lim": 400,
+   "robot_config": "dual_x5",
+   "scene_config": "default",
+   "layouts": {
+    "0": 30,
+    "1": 30,
+    "2": 30
+   },
+   "data_source": "teleop"
+  },
+  {
+   "name": "press_by_number",
+   "base": "press_by_number",
+   "random": false,
+   "dimension": "memory",
+   "eval_nums": 50,
+   "step_lim": 700,
+   "robot_config": "dual_x5",
+   "scene_config": "default",
+   "layouts": {
+    "0": 65,
+    "1": 65,
+    "2": 65
+   },
+   "data_source": "datagen"
+  },
+  {
+   "name": "push_T",
+   "base": "push_T",
+   "random": false,
+   "dimension": "generalization",
+   "eval_nums": 25,
+   "step_lim": 600,
+   "robot_config": "dual_x5",
+   "scene_config": "default",
+   "layouts": {
+    "0": 55,
+    "1": 55,
+    "2": 55
+   },
+   "data_source": "teleop"
+  },
+  {
+   "name": "push_T_random",
+   "base": "push_T",
+   "random": true,
+   "dimension": "generalization",
+   "eval_nums": 25,
+   "step_lim": 600,
+   "robot_config": "dual_x5",
+   "scene_config": "default",
+   "layouts": {
+    "0": 30,
+    "1": 30,
+    "2": 30
+   },
+   "data_source": "teleop"
+  },
+  {
+   "name": "put_bottles_into_dustbin",
+   "base": "put_bottles_into_dustbin",
+   "random": false,
+   "dimension": "long-horizon",
+   "eval_nums": 50,
+   "step_lim": 700,
+   "robot_config": "dual_x5",
+   "scene_config": "default",
+   "layouts": {
+    "0": 55,
+    "1": 55,
+    "2": 55
+   },
+   "data_source": "teleop"
+  },
+  {
+   "name": "solve_equation",
+   "base": "solve_equation",
+   "random": false,
+   "dimension": "open",
+   "eval_nums": 50,
+   "step_lim": 300,
+   "robot_config": "dual_x5",
+   "scene_config": "default",
+   "layouts": {
+    "0": 55,
+    "1": 55,
+    "2": 55
+   },
+   "data_source": "datagen"
+  },
+  {
+   "name": "sort_nesting_dolls_by_size",
+   "base": "sort_nesting_dolls_by_size",
+   "random": false,
+   "dimension": "generalization",
+   "eval_nums": 25,
+   "step_lim": 1050,
+   "robot_config": "dual_x5",
+   "scene_config": "default",
+   "layouts": {
+    "0": 30,
+    "1": 30,
+    "2": 30
+   },
+   "data_source": "datagen"
+  },
+  {
+   "name": "sort_nesting_dolls_by_size_random",
+   "base": "sort_nesting_dolls_by_size",
+   "random": true,
+   "dimension": "generalization",
+   "eval_nums": 25,
+   "step_lim": 1050,
+   "robot_config": "dual_x5",
+   "scene_config": "default",
+   "layouts": {
+    "0": 30,
+    "1": 30,
+    "2": 30
+   },
+   "data_source": "datagen"
+  },
+  {
+   "name": "stack_blocks",
+   "base": "stack_blocks",
+   "random": false,
+   "dimension": "generalization",
+   "eval_nums": 25,
+   "step_lim": 550,
+   "robot_config": "dual_x5",
+   "scene_config": "default",
+   "layouts": {
+    "0": 55,
+    "1": 55,
+    "2": 55
+   },
+   "data_source": "datagen"
+  },
+  {
+   "name": "stack_blocks_by_language",
+   "base": "stack_blocks_by_language",
+   "random": false,
+   "dimension": "open",
+   "eval_nums": 50,
+   "step_lim": 400,
+   "robot_config": "dual_x5",
+   "scene_config": "default",
+   "layouts": {
+    "0": 55,
+    "1": 55,
+    "2": 55
+   },
+   "data_source": "datagen"
+  },
+  {
+   "name": "stack_blocks_random",
+   "base": "stack_blocks",
+   "random": true,
+   "dimension": "generalization",
+   "eval_nums": 25,
+   "step_lim": 550,
+   "robot_config": "dual_x5",
+   "scene_config": "default",
+   "layouts": {
+    "0": 30,
+    "1": 30,
+    "2": 30
+   },
+   "data_source": "datagen"
+  },
+  {
+   "name": "stack_bowls",
+   "base": "stack_bowls",
+   "random": false,
+   "dimension": "generalization",
+   "eval_nums": 25,
+   "step_lim": 800,
+   "robot_config": "dual_x5",
+   "scene_config": "default",
+   "layouts": {
+    "0": 55,
+    "1": 55,
+    "2": 55
+   },
+   "data_source": "teleop"
+  },
+  {
+   "name": "stack_bowls_random",
+   "base": "stack_bowls",
+   "random": true,
+   "dimension": "generalization",
+   "eval_nums": 25,
+   "step_lim": 800,
+   "robot_config": "dual_x5",
+   "scene_config": "default",
+   "layouts": {
+    "0": 30,
+    "1": 30,
+    "2": 30
+   },
+   "data_source": "teleop"
+  },
+  {
+   "name": "store_laptop_and_headphones",
+   "base": "store_laptop_and_headphones",
+   "random": false,
+   "dimension": "generalization",
+   "eval_nums": 25,
+   "step_lim": 800,
+   "robot_config": "dual_x5",
+   "scene_config": "default",
+   "layouts": {
+    "0": 55,
+    "1": 55,
+    "2": 55
+   },
+   "data_source": "teleop"
+  },
+  {
+   "name": "store_laptop_and_headphones_random",
+   "base": "store_laptop_and_headphones",
+   "random": true,
+   "dimension": "generalization",
+   "eval_nums": 25,
+   "step_lim": 800,
+   "robot_config": "dual_x5",
+   "scene_config": "default",
+   "layouts": {
+    "0": 30,
+    "1": 30,
+    "2": 30
+   },
+   "data_source": "teleop"
+  },
+  {
+   "name": "store_tools_in_toolbox",
+   "base": "store_tools_in_toolbox",
+   "random": false,
+   "dimension": "open",
+   "eval_nums": 50,
+   "step_lim": 900,
+   "robot_config": "dual_x5",
+   "scene_config": "default",
+   "layouts": {
+    "0": 55,
+    "1": 55,
+    "2": 55
+   },
+   "data_source": "datagen"
+  },
+  {
+   "name": "swap_T",
+   "base": "swap_T",
+   "random": false,
+   "dimension": "memory",
+   "eval_nums": 50,
+   "step_lim": 400,
+   "robot_config": "dual_x5",
+   "scene_config": "default",
+   "layouts": {
+    "0": 55,
+    "1": 55,
+    "2": 55
+   },
+   "data_source": "datagen"
+  },
+  {
+   "name": "swap_blocks",
+   "base": "swap_blocks",
+   "random": false,
+   "dimension": "memory",
+   "eval_nums": 50,
+   "step_lim": 700,
+   "robot_config": "dual_x5",
+   "scene_config": "default",
+   "layouts": {
+    "0": 55,
+    "1": 55,
+    "2": 55
+   },
+   "data_source": "datagen"
+  },
+  {
+   "name": "sweep_blocks",
+   "base": "sweep_blocks",
+   "random": false,
+   "dimension": "generalization",
+   "eval_nums": 25,
+   "step_lim": 1000,
+   "robot_config": "dual_x5",
+   "scene_config": "default",
+   "layouts": {
+    "0": 55,
+    "1": 55,
+    "2": 55
+   },
+   "data_source": "teleop"
+  },
+  {
+   "name": "sweep_blocks_random",
+   "base": "sweep_blocks",
+   "random": true,
+   "dimension": "generalization",
+   "eval_nums": 25,
+   "step_lim": 1000,
+   "robot_config": "dual_x5",
+   "scene_config": "default",
+   "layouts": {
+    "0": 30,
+    "1": 30,
+    "2": 30
+   },
+   "data_source": "teleop"
+  }
+ ]
+}

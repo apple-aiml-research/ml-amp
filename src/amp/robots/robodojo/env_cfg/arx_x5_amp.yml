@@ -1,0 +1,23 @@
+# AMP's sensing config: env_cfg/arx_x5.yml with depth and camera parameters on
+# (docs/robodojo.md). config_name stays arx_x5, so RoboDojo's output paths are unchanged.
+# Copyright (c) 2026 RoboDojo Contributors
+# SPDX-License-Identifier: MIT
+config_name: arx_x5
+
+config:
+  sim: sim_config
+  scene: default
+  robot: dual_x5
+  camera: camera_config_amp
+
+observation:
+  collect_freq: 25
+  robot:
+    joint_states: true
+    world_ee_state: true
+  vision:
+    approximate_depth: false
+    depth: true
+    intrinsic_matrix: true
+    extrinsic_matrix: true
+    shape: true

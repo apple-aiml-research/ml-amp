@@ -1,0 +1,40 @@
+#
+# For licensing see accompanying LICENSE file.
+# Copyright (C) 2026 Apple Inc. All Rights Reserved.
+#
+# amp-models.example.yaml: where AMP sends each model's requests.
+# Models are called by their own APIs (Claude, Gemini, and open-weights models on an
+# OpenAI-compatible server). A model this file does not list is served from the environment.
+# Copy it, edit it, and point AMP_MODELS_FILE at the copy. Without a models file AMP uses the
+# vendors' environment variables (docs/models.md). Never put a key in this file: name the
+# environment variable that holds it (api_key_env), and ${VAR} in base_url or headers.
+servers:
+  anthropic:
+    wire: anthropic                 # anthropic | gemini | openai-chat
+    base_url: https://api.anthropic.com
+    api_key_env: ANTHROPIC_API_KEY
+    api_key_header: x-api-key       # "authorization" sends "Bearer <key>"
+    headers: {}                     # sent on every request; override anthropic-beta here if needed
+  gemini:
+    wire: gemini
+    base_url: https://generativelanguage.googleapis.com/v1beta
+    api_key_env: GEMINI_API_KEY
+    api_key_header: x-goog-api-key
+  local-sglang:
+    wire: openai-chat
+    base_url: http://127.0.0.1:30000/v1
+    api_key_env: null               # no key sent
+
+models:
+  opus-5.5:
+    server: anthropic
+    served_model: claude-opus-5-5   # what goes in the request; default: the registry's model_id
+  gemini-4-argon:
+    server: gemini
+    served_model: gemini-4-argon
+  qwen3.8-flash-next:
+    server: local-sglang
+    served_model: Qwen/Qwen3.8-Flash-Next
+    context_tokens: 262144
+  # Another open-weights model: served_model is your server's name for it; the registry key selects
+  # its family's request parameters (docs/models.md).

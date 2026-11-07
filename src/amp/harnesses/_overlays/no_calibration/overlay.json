@@ -1,0 +1,7 @@
+{
+  "tag": "nocal",
+  "description": "no camera calibration: the robot server leaves every camera's intrinsics and extrinsics out of the observations it serves (hide_calibration); it still uses them itself",
+  "server_env": {
+    "hide_calibration": "true"
+  }
+}

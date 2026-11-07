@@ -1,0 +1,422 @@
+[
+ {
+  "task": "align_blocks",
+  "folder": "align_blocks",
+  "sha": "acc4eed92e25389ac275664d2907dcd2067f6591b8257b98ec5afca28b4b2312",
+  "practice_run": "v3",
+  "round": 2,
+  "same_as_final": false,
+  "seed2_successes": 50,
+  "seed2_units": 50
+ },
+ {
+  "task": "arrange_largest_number",
+  "folder": "arrange_largest_number",
+  "sha": "46a1a50e564e2b187fdb760e9383b2816a5b728d666aea1c04aed745b35cc568",
+  "practice_run": "v3n1",
+  "round": 2,
+  "same_as_final": false,
+  "seed2_successes": 30,
+  "seed2_units": 50
+ },
+ {
+  "task": "build_tower",
+  "folder": "build_tower",
+  "sha": "e4ce18f39a016cab091ac3191e432a5d93a835ae3d5ea8230c803263164891ee",
+  "practice_run": "v3n1",
+  "round": 2,
+  "same_as_final": false,
+  "seed2_successes": 0,
+  "seed2_units": 50
+ },
+ {
+  "task": "classify_objects",
+  "folder": "classify_objects",
+  "sha": "25886ddc605aa4eb3b8c13be02b43891c4b236fc27bbc11ef2b95e7cd3fa9d13",
+  "practice_run": "v3n1",
+  "round": 2,
+  "same_as_final": false,
+  "seed2_successes": 48,
+  "seed2_units": 50
+ },
+ {
+  "task": "classify_objects_by_language",
+  "folder": "classify_objects_by_language",
+  "sha": "93f77c3ac4d4caaf98db0dde04fd933e7314768a17567b34a4a9c209acc100da",
+  "practice_run": "v3n2",
+  "round": 2,
+  "same_as_final": false,
+  "seed2_successes": 45,
+  "seed2_units": 50
+ },
+ {
+  "task": "cover_blocks",
+  "folder": "cover_blocks",
+  "sha": "7c633e05f387a7f9201241289de6b472a6246040ecd3c9f3d17d199fbafb7498",
+  "practice_run": "v3n1",
+  "round": 2,
+  "same_as_final": true,
+  "seed2_successes": 50,
+  "seed2_units": 50
+ },
+ {
+  "task": "deposit_coin",
+  "folder": "deposit_coin",
+  "sha": "b76ca779175735442ff4a30094fa251db664bb5855bae986ce8f909300199f98",
+  "practice_run": "v3n2",
+  "round": 2,
+  "same_as_final": false,
+  "seed2_successes": 24,
+  "seed2_units": 49
+ },
+ {
+  "task": "fasten_screws",
+  "folder": "fasten_screws",
+  "sha": "f04c9102a8bffb5b57d7390f4c561c8e69f88f213cae8a4f52f355bdce2286ab",
+  "practice_run": "v3n2",
+  "round": 2,
+  "same_as_final": false,
+  "seed2_successes": 31,
+  "seed2_units": 50
+ },
+ {
+  "task": "fill_egg_holder",
+  "folder": "fill_egg_holder",
+  "sha": "79ad4d7f34c8e3318fc459604cb1906169d2bf365bcda9627256e322a4c6f8cb",
+  "practice_run": "v3n2",
+  "round": 2,
+  "same_as_final": false,
+  "seed2_successes": 0,
+  "seed2_units": 48
+ },
+ {
+  "task": "fill_pen_holder",
+  "folder": "fill_pen_holder",
+  "sha": "6d4d5af626a0c5b91c2e12f75a61730ddd3e7e4e3efabe93cbf930912260fb0d",
+  "practice_run": "v3n4",
+  "round": 2,
+  "same_as_final": false,
+  "seed2_successes": 21,
+  "seed2_units": 50
+ },
+ {
+  "task": "fold_clothes",
+  "folder": "fold_clothes",
+  "sha": "86150aa2f7b1d0ecf38e36011ab603ffe687d21f07e6fb11e1a52aea85c368c7",
+  "practice_run": "v3n4",
+  "round": 2,
+  "same_as_final": false,
+  "seed2_successes": 27,
+  "seed2_units": 50
+ },
+ {
+  "task": "general_pickup",
+  "folder": "general_pickup",
+  "sha": "84139fb6f602cbad7932c4acccd9c4d917922a85264ed5df879f38480b49d447",
+  "practice_run": "v3",
+  "round": 2,
+  "same_as_final": true,
+  "seed2_successes": 42,
+  "seed2_units": 50
+ },
+ {
+  "task": "hang_mugs",
+  "folder": "hang_mugs",
+  "sha": "10667f6cb80d82af7b56987d6f9637c4ed6a1dd325a0fc70315b3a6ef4c9b3da",
+  "practice_run": "v3n4",
+  "round": 2,
+  "same_as_final": false,
+  "seed2_successes": 11,
+  "seed2_units": 50
+ },
+ {
+  "task": "imitate_sorting_sequence",
+  "folder": "imitate_sorting_sequence",
+  "sha": "d55152504085a7618581881dd6faa951b6f2a73f155e94b13f0916ce9dfd239b",
+  "practice_run": "v3n4",
+  "round": 2,
+  "same_as_final": false,
+  "seed2_successes": 42,
+  "seed2_units": 50
+ },
+ {
+  "task": "insert_key",
+  "folder": "insert_key",
+  "sha": "203abb7c3eb2ce37ea0175b10152a2d23319d8eea2f0e206ebb69da9552f06a2",
+  "practice_run": "v3n1",
+  "round": 2,
+  "same_as_final": false,
+  "seed2_successes": 0,
+  "seed2_units": 50
+ },
+ {
+  "task": "insert_tubes",
+  "folder": "insert_tubes",
+  "sha": "2b9526225437f5455da5d6803331860f4c3badd0e4070367f6eae601794bbb72",
+  "practice_run": "v3",
+  "round": 2,
+  "same_as_final": false,
+  "seed2_successes": 43,
+  "seed2_units": 50
+ },
+ {
+  "task": "make_kong",
+  "folder": "make_kong",
+  "sha": "c6adb0641b7d2aabea84a492a7df2b37fcb81504f95ca6afd323158ba6a69e38",
+  "practice_run": "v3n1",
+  "round": 2,
+  "same_as_final": true,
+  "seed2_successes": 50,
+  "seed2_units": 50
+ },
+ {
+  "task": "make_toast",
+  "folder": "make_toast",
+  "sha": "6b62290bb086f8c243817926249d940c0c7c745fd7cc314df60232d6fc6f6e2a",
+  "practice_run": "v3",
+  "round": 2,
+  "same_as_final": false,
+  "seed2_successes": 9,
+  "seed2_units": 50
+ },
+ {
+  "task": "match_and_pick_from_conveyor",
+  "folder": "match_and_pick_from_conveyor",
+  "sha": "eeccc70ff7e973941e837cb83b89eb59c8b344972793bd19fac6f577957950fc",
+  "practice_run": "v3n4",
+  "round": 2,
+  "same_as_final": false,
+  "seed2_successes": 36,
+  "seed2_units": 50
+ },
+ {
+  "task": "organize_table",
+  "folder": "organize_table",
+  "sha": "4686a392c2adf74dccd409b4866502171864bb28970e3ad7881b9479e7c76f3e",
+  "practice_run": "v3",
+  "round": 2,
+  "same_as_final": false,
+  "seed2_successes": 28,
+  "seed2_units": 50
+ },
+ {
+  "task": "pack_objects_into_box",
+  "folder": "pack_objects_into_box",
+  "sha": "2e88068827bf04440243dc39c14e5f03531ba67f326d83ff39ff3e42e075545c",
+  "practice_run": "v3n3",
+  "round": 2,
+  "same_as_final": false,
+  "seed2_successes": 19,
+  "seed2_units": 50
+ },
+ {
+  "task": "pick_from_conveyor_by_image",
+  "folder": "pick_from_conveyor_by_image",
+  "sha": "ba1f303ba9d86ad8cd446e67807c6174f1cc627d29c75549d46a759688028d98",
+  "practice_run": "v3n4",
+  "round": 2,
+  "same_as_final": false,
+  "seed2_successes": 33,
+  "seed2_units": 50
+ },
+ {
+  "task": "play_Xylophone",
+  "folder": "play_Xylophone",
+  "sha": "abaf966b39b906850ce6ffc7a3745cd23098da6f8249845e3bff7af13ad73e77",
+  "practice_run": "v3n2",
+  "round": 2,
+  "same_as_final": false,
+  "seed2_successes": 31,
+  "seed2_units": 50
+ },
+ {
+  "task": "play_stacking_toy",
+  "folder": "play_stacking_toy",
+  "sha": "0a107d03fe729eafa10475075fb9fccb8359f027248ca113b4c59c1149f053b4",
+  "practice_run": "v3n3",
+  "round": 2,
+  "same_as_final": false,
+  "seed2_successes": 22,
+  "seed2_units": 50
+ },
+ {
+  "task": "play_tic_tac_toe",
+  "folder": "play_tic_tac_toe",
+  "sha": "9dcff5d7f6183fd5ee996fbfdb36c40b4f0f0a30e80d090ce57a6c13e536e949",
+  "practice_run": "v3",
+  "round": 2,
+  "same_as_final": true,
+  "seed2_successes": 50,
+  "seed2_units": 50
+ },
+ {
+  "task": "plug_in_charger",
+  "folder": "plug_in_charger",
+  "sha": "be0064d36e1f98b0ee63b049fe6fbad0ccbf78595e849ee4891d8f72dd104d86",
+  "practice_run": "v3",
+  "round": 2,
+  "same_as_final": false,
+  "seed2_successes": 32,
+  "seed2_units": 50
+ },
+ {
+  "task": "pour_balls_into_vase",
+  "folder": "pour_balls_into_vase",
+  "sha": "7fa13f35fc383fa2c3020fb7c0a1bee254266944b349d1df3cf516aeb9b64c87",
+  "practice_run": "v3n1",
+  "round": 2,
+  "same_as_final": false,
+  "seed2_successes": 32,
+  "seed2_units": 50
+ },
+ {
+  "task": "pour_by_language",
+  "folder": "pour_by_language",
+  "sha": "66f796c0b69f0ae63876cb453450ad63e29ec7c719466b169d24a68a390dde9b",
+  "practice_run": "v3n3",
+  "round": 2,
+  "same_as_final": false,
+  "seed2_successes": 0,
+  "seed2_units": 50
+ },
+ {
+  "task": "pour_liquid_into_cup",
+  "folder": "pour_liquid_into_cup",
+  "sha": "7b9b5bf6c3aec8713f8ad475a3f75da0014db815bf3e2d9d92c9c8a86bae9f8d",
+  "practice_run": "v3n3",
+  "round": 2,
+  "same_as_final": false,
+  "seed2_successes": 0,
+  "seed2_units": 50
+ },
+ {
+  "task": "press_by_number",
+  "folder": "press_by_number",
+  "sha": "c0b383797e693ac6b41f40b83c06824a1405cd899799e23d300510a973082230",
+  "practice_run": "v3",
+  "round": 2,
+  "same_as_final": true,
+  "seed2_successes": 50,
+  "seed2_units": 50
+ },
+ {
+  "task": "push_T",
+  "folder": "push_T",
+  "sha": "a97424c32be6918c49db5368b38d5427de168c1b25aacf757dcf43c47eba97d0",
+  "practice_run": "v3n4",
+  "round": 2,
+  "same_as_final": false,
+  "seed2_successes": 48,
+  "seed2_units": 50
+ },
+ {
+  "task": "put_bottles_into_dustbin",
+  "folder": "put_bottles_into_dustbin",
+  "sha": "c4dc8fe8876e2d446e6bb407a0dbeb47cad9d2b12493d9515783f7ee7af5d2e8",
+  "practice_run": "v3n2",
+  "round": 2,
+  "same_as_final": false,
+  "seed2_successes": 50,
+  "seed2_units": 50
+ },
+ {
+  "task": "solve_equation",
+  "folder": "solve_equation",
+  "sha": "304bc2481edddd7de0471a9622e5363327e53f5c3209bf295e5fe42e0305f8f1",
+  "practice_run": "v3n4",
+  "round": 2,
+  "same_as_final": false,
+  "seed2_successes": 45,
+  "seed2_units": 50
+ },
+ {
+  "task": "sort_nesting_dolls_by_size",
+  "folder": "sort_nesting_dolls_by_size",
+  "sha": "8b5da842361a11651f6aaaf351f38b6d0120edaf229a294276d7b1386725ef60",
+  "practice_run": "v3n3",
+  "round": 2,
+  "same_as_final": false,
+  "seed2_successes": 36,
+  "seed2_units": 50
+ },
+ {
+  "task": "stack_blocks",
+  "folder": "stack_blocks",
+  "sha": "d73fd71f0d21166a0725adfc9ee857a22a8d2c3de822985011161a5a9527efb7",
+  "practice_run": "v3",
+  "round": 2,
+  "same_as_final": true,
+  "seed2_successes": 48,
+  "seed2_units": 50
+ },
+ {
+  "task": "stack_blocks_by_language",
+  "folder": "stack_blocks_by_language",
+  "sha": "cbeae23993b535a98174739ca7d135d749ce7e696bd4142a02faa95d5026d9fc",
+  "practice_run": "v3",
+  "round": 2,
+  "same_as_final": false,
+  "seed2_successes": 50,
+  "seed2_units": 50
+ },
+ {
+  "task": "stack_bowls",
+  "folder": "stack_bowls",
+  "sha": "3b9596f3ab709b4a5d087cd22b56053c27a44179eab913eada4a2d42886239d4",
+  "practice_run": "v3",
+  "round": 2,
+  "same_as_final": true,
+  "seed2_successes": 49,
+  "seed2_units": 50
+ },
+ {
+  "task": "store_laptop_and_headphones",
+  "folder": "store_laptop_and_headphones",
+  "sha": "04b1e23925262515d16a0837fb7ddfc9a79a05f40979af7282c3c45ebf947cac",
+  "practice_run": "v3n2",
+  "round": 2,
+  "same_as_final": false,
+  "seed2_successes": 0,
+  "seed2_units": 50
+ },
+ {
+  "task": "store_tools_in_toolbox",
+  "folder": "store_tools_in_toolbox",
+  "sha": "6e32e9a1bbe291d33407dfea59143742a8c8d49db4955dcee02f75f94677244a",
+  "practice_run": "v3",
+  "round": 2,
+  "same_as_final": false,
+  "seed2_successes": 0,
+  "seed2_units": 50
+ },
+ {
+  "task": "swap_T",
+  "folder": "swap_T",
+  "sha": "cf97df382c4b4e2abf90c3c4410b1bbe0027062ca3b19532824431dcf7a76ccd",
+  "practice_run": "v3n2",
+  "round": 2,
+  "same_as_final": false,
+  "seed2_successes": 45,
+  "seed2_units": 50
+ },
+ {
+  "task": "swap_blocks",
+  "folder": "swap_blocks",
+  "sha": "af2acd7760e79261fae754f7faed31aa363bcc486e199adb2bf4c3bf847ddc42",
+  "practice_run": "v3n3",
+  "round": 2,
+  "same_as_final": false,
+  "seed2_successes": 47,
+  "seed2_units": 50
+ },
+ {
+  "task": "sweep_blocks",
+  "folder": "sweep_blocks",
+  "sha": "0d32def6ce0d1b83971da179fd3577eee79fcbc035aa46a279f7fcc48aacc2e5",
+  "practice_run": "v3n3",
+  "round": 2,
+  "same_as_final": false,
+  "seed2_successes": 25,
+  "seed2_units": 50
+ }
+]

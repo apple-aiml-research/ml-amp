@@ -1,0 +1,18 @@
+{
+ "name": "rd_fewshot_b8",
+ "tag": "rdfsb8",
+ "label": "RoboDojo, 42 tasks: one workspace notebook per task, notebook v3 (batches of 8 practice episodes on robodojo-seed0, a debrief after every batch ending in keep, change or stop, 48 practice episodes per task), the frozen notebook evaluated on robodojo-seed2 (50 episodes per task)",
+ "tasks": "all",
+ "harness": "amp1_basic_rgb_only_nocal_rdrecipe_rdnotes",
+ "model": "opus-5.5",
+ "reasoning": "high",
+ "prompt": "amp1",
+ "gpus": "auto",
+ "runs": "runs/practice",
+ "batch": 8,
+ "budget": 48,
+ "workspace_max_bytes": 131072,
+ "practice": {"corpora": ["robodojo-seed0"]},
+ "eval": {"corpus": "robodojo-seed2", "episodes": 50},
+ "debrief": {"max_turns": 100, "max_cost_usd": 20}
+}

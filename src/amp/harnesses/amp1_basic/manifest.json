@@ -1,0 +1,50 @@
+{
+  "name": "amp1_basic",
+  "version": "7",
+  "description": "AMP1's basic harness, the default: perception and object editing for any embodiment, with or without a mobile base; the model commands motion directly as TCP waypoints and the gripper, and on a robot with a base or a torso also by move_base and move_joints. It has no grasp or place proposals, planned motion or grasp-check helpers (its SDK copy has none of them); the robot, its gripper and cameras are read from the observation.",
+  "route_policy": "routes.json",
+  "sdk_package": "../_sdk_amp1_basic/robolab_harness",
+  "sdk_exclude": [
+    "MANUAL.md",
+    "__pycache__",
+    "*.pyc"
+  ],
+  "bootstrap": "import robolab_harness as rh\nrh._trace.HARNESS = \"amp1_basic\"\nep = rh.connect(EPISODE_FILE, wait_ready_s=READY_TIMEOUT_S)\n",
+  "preloaded": [
+    "rh",
+    "ep",
+    "np",
+    "Image",
+    "show"
+  ],
+  "reference_docs": [
+    "../_sdk_amp1_basic/reference.md",
+    "reference.md"
+  ],
+  "server": {
+    "kind": "teleop",
+    "info_mode": "standard",
+    "cameras": "droid",
+    "obstacles": "scene",
+    "embodiments": [
+      "*"
+    ],
+    "env": {
+      "mobile_base": "optional",
+      "observation_embodiment": "true",
+      "hide_table_height": "true",
+      "table_obstacle": "false",
+      "perception_floor": "false"
+    }
+  },
+  "tool_mode": "code",
+  "trace_kinds": {
+    "harness.amp1_basic.connect": "the episode became ready (or connect failed): instruction, wait",
+    "harness.amp1_basic.plan": "a manual preview: kind, ok, n_steps, error issues",
+    "harness.amp1_basic.execute": "a motion (execute, move_to, gripper, hold, home, stop, move_joints, move_base): its reply and the observed state after it",
+    "harness.amp1_basic.objects": "segment / define_object / forget_object / reperceive: the agent's edits to the scene",
+    "harness.amp1_basic.finish": "the model ended the episode",
+    "harness.amp1_basic.request": "one HTTP request the SDK sent: method, path, status, latency_s, bytes, and stack, the public ep methods that sent it, outermost first"
+  },
+  "viewer": null
+}

@@ -1,0 +1,63 @@
+{
+  "tag": "noperc",
+  "description": "no perception: the route policy refuses the scene, segment, define_object, forget_object, reperceive, object_points, object_at and motion/base, and drops objects, perception notes and held from observations and waits and obstacle contacts from checks; server.obstacles table, so agent checks collide against no perceived object and name none (the table stays only where the base keeps it)",
+  "server": {
+    "obstacles": "table"
+  },
+  "deny_routes": [
+    [
+      "POST",
+      "api/agent/segment"
+    ],
+    [
+      "POST",
+      "api/agent/define_object"
+    ],
+    [
+      "POST",
+      "api/agent/forget_object"
+    ],
+    [
+      "POST",
+      "api/agent/reperceive"
+    ],
+    [
+      "GET",
+      "api/agent/object_points/obj1"
+    ],
+    [
+      "GET",
+      "api/scene"
+    ],
+    [
+      "POST",
+      "api/assist/object_at"
+    ],
+    [
+      "POST",
+      "api/motion/base"
+    ]
+  ],
+  "response_drop": {
+    "api/agent/observation": [
+      "objects",
+      "perception_notes",
+      "perception_seq",
+      "held"
+    ],
+    "api/agent/wait": [
+      "observation.objects",
+      "observation.perception_notes",
+      "observation.perception_seq",
+      "observation.held"
+    ],
+    "api/agent/check": [
+      "contacts.obstacle",
+      "arm_inside"
+    ],
+    "api/agent/check_batch": [
+      "results.contacts.obstacle",
+      "results.arm_inside"
+    ]
+  }
+}

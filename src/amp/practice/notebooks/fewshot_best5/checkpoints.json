@@ -1,0 +1,338 @@
+[
+ {
+  "task": "align_blocks",
+  "folder": "align_blocks",
+  "sha": "9445ad0feb6c7e40b24dbbd558e6a193f571e37365d29688878e718f64c817e7",
+  "practice_run": "v3",
+  "seed2_successes": 50,
+  "seed2_units": 50
+ },
+ {
+  "task": "arrange_largest_number",
+  "folder": "arrange_largest_number",
+  "sha": "256fa86ca80d15ed5704606191b6ee1a33274ddd4a8dbde9b1ac76e9beb3bbf9",
+  "practice_run": "v3n1",
+  "seed2_successes": 41,
+  "seed2_units": 50
+ },
+ {
+  "task": "build_tower",
+  "folder": "build_tower",
+  "sha": "42d96a6c3d062511ed40d0b4e0f5f73c773d98854ace7a123728c21a624b22ce",
+  "practice_run": "v3n1",
+  "seed2_successes": 49,
+  "seed2_units": 50
+ },
+ {
+  "task": "classify_objects",
+  "folder": "classify_objects",
+  "sha": "47f5b148196298d95cdc2a89816cbc2b64476390fd095125f4b968f17fe40865",
+  "practice_run": "v3n1",
+  "seed2_successes": 50,
+  "seed2_units": 50
+ },
+ {
+  "task": "classify_objects_by_language",
+  "folder": "classify_objects_by_language",
+  "sha": "371288f2c2952f7e4dac0b03cd7ae30a21e723bddbbe6be2e1aee60129d74997",
+  "practice_run": "v3n2",
+  "seed2_successes": 41,
+  "seed2_units": 50
+ },
+ {
+  "task": "cover_blocks",
+  "folder": "cover_blocks",
+  "sha": "7c633e05f387a7f9201241289de6b472a6246040ecd3c9f3d17d199fbafb7498",
+  "practice_run": "v3n1",
+  "seed2_successes": 50,
+  "seed2_units": 50
+ },
+ {
+  "task": "deposit_coin",
+  "folder": "deposit_coin",
+  "sha": "de39dddac2dc7525d66bf07b9f02e0c8b82220d6f0035d38f9072b8fd2254813",
+  "practice_run": "v3n2",
+  "seed2_successes": 36,
+  "seed2_units": 50
+ },
+ {
+  "task": "fasten_screws",
+  "folder": "fasten_screws",
+  "sha": "5b39e0c2d61737a2b226d0178f1d0ae167c4ca635af9a80700723571140160a6",
+  "practice_run": "v3n2",
+  "seed2_successes": 50,
+  "seed2_units": 50
+ },
+ {
+  "task": "fill_egg_holder",
+  "folder": "fill_egg_holder",
+  "sha": "38a4cbaf8528a1f8b8f685ada84a9c1b8486e3642ab484c3853a77483462172d",
+  "practice_run": "v3n2",
+  "seed2_successes": 16,
+  "seed2_units": 47
+ },
+ {
+  "task": "fill_pen_holder",
+  "folder": "fill_pen_holder",
+  "sha": "f0a398eb522a515c9d27c6e25c001b634a484b8be9e839259b86618a502647ba",
+  "practice_run": "v3n4",
+  "seed2_successes": 38,
+  "seed2_units": 50
+ },
+ {
+  "task": "fold_clothes",
+  "folder": "fold_clothes",
+  "sha": "99da0a737d696f88e3661f055aaf6636599f64ef5c58ec113b00104e681f1be0",
+  "practice_run": "v3n4",
+  "seed2_successes": 42,
+  "seed2_units": 50
+ },
+ {
+  "task": "general_pickup",
+  "folder": "general_pickup",
+  "sha": "84139fb6f602cbad7932c4acccd9c4d917922a85264ed5df879f38480b49d447",
+  "practice_run": "v3",
+  "seed2_successes": 42,
+  "seed2_units": 50
+ },
+ {
+  "task": "hang_mugs",
+  "folder": "hang_mugs",
+  "sha": "0455c59914397e4fa52f649325b41b877e877f5073f6e7f914c8d434665dae3c",
+  "practice_run": "v3n4",
+  "seed2_successes": 28,
+  "seed2_units": 50
+ },
+ {
+  "task": "imitate_sorting_sequence",
+  "folder": "imitate_sorting_sequence",
+  "sha": "ddfd3aefc384eb8e33623ca56405483be260ca86e47955f327e530ac13fc4d11",
+  "practice_run": "v3n4",
+  "seed2_successes": 43,
+  "seed2_units": 50
+ },
+ {
+  "task": "insert_key",
+  "folder": "insert_key",
+  "sha": "1a420c33b7b22b71ee6344148f1d37c8b038f462c1e01f9b0e83182e14972545",
+  "practice_run": "v3n1",
+  "seed2_successes": 7,
+  "seed2_units": 50
+ },
+ {
+  "task": "insert_tubes",
+  "folder": "insert_tubes",
+  "sha": "0f517d3296084519e1fe17acd36b6122d06308f6752fec438617d98d615ddbeb",
+  "practice_run": "v3",
+  "seed2_successes": 50,
+  "seed2_units": 50
+ },
+ {
+  "task": "make_kong",
+  "folder": "make_kong",
+  "sha": "c6adb0641b7d2aabea84a492a7df2b37fcb81504f95ca6afd323158ba6a69e38",
+  "practice_run": "v3n1",
+  "seed2_successes": 50,
+  "seed2_units": 50
+ },
+ {
+  "task": "make_toast",
+  "folder": "make_toast",
+  "sha": "07e4491da2ab03e2187dd5f99d04b565e932546dcd8afd45e04e9248b5c76d76",
+  "practice_run": "v3",
+  "seed2_successes": 27,
+  "seed2_units": 50
+ },
+ {
+  "task": "match_and_pick_from_conveyor",
+  "folder": "match_and_pick_from_conveyor",
+  "sha": "b977a3bae1f90092a7dc57ebc0516ab02a605543e83f7a7bb288369d94da6b81",
+  "practice_run": "v3n4",
+  "seed2_successes": 44,
+  "seed2_units": 50
+ },
+ {
+  "task": "organize_table",
+  "folder": "organize_table",
+  "sha": "d3463a97fac2293ea4bfd028635d5b2b33d1744a698fc4a9515bb1e59832ca74",
+  "practice_run": "v3",
+  "seed2_successes": 35,
+  "seed2_units": 50
+ },
+ {
+  "task": "pack_objects_into_box",
+  "folder": "pack_objects_into_box",
+  "sha": "878f1f5eae35b43d8561a47b90784f9f403c2745c420b8ac756ef7175bd8fdf5",
+  "practice_run": "v3n3",
+  "seed2_successes": 36,
+  "seed2_units": 50
+ },
+ {
+  "task": "pick_from_conveyor_by_image",
+  "folder": "pick_from_conveyor_by_image",
+  "sha": "6468109c1bb127ddc0d57d1ea25b91a8ac1da640b17606b40a8555b05ee33f7e",
+  "practice_run": "v3n4",
+  "seed2_successes": 48,
+  "seed2_units": 50
+ },
+ {
+  "task": "play_Xylophone",
+  "folder": "play_Xylophone",
+  "sha": "fc09f0e0b5c79931eb9bacc8e07d38a55b884ed280f48f2d6792eddfa67134ac",
+  "practice_run": "v3n2",
+  "seed2_successes": 48,
+  "seed2_units": 50
+ },
+ {
+  "task": "play_stacking_toy",
+  "folder": "play_stacking_toy",
+  "sha": "7d1d8fe4b98bd92a5e0c57577450c33c92354a8c0507cc46d06ca51395000e34",
+  "practice_run": "v3n3",
+  "seed2_successes": 47,
+  "seed2_units": 50
+ },
+ {
+  "task": "play_tic_tac_toe",
+  "folder": "play_tic_tac_toe",
+  "sha": "9dcff5d7f6183fd5ee996fbfdb36c40b4f0f0a30e80d090ce57a6c13e536e949",
+  "practice_run": "v3",
+  "seed2_successes": 50,
+  "seed2_units": 50
+ },
+ {
+  "task": "plug_in_charger",
+  "folder": "plug_in_charger",
+  "sha": "274f0051bb570be74cb9653eb6c9de16f8cce1094ee9b026de9dfafe8062600d",
+  "practice_run": "v3",
+  "seed2_successes": 49,
+  "seed2_units": 50
+ },
+ {
+  "task": "pour_balls_into_vase",
+  "folder": "pour_balls_into_vase",
+  "sha": "87c40f2135a42716ce7fa0042b8c849f17886ed544353ba393b5d5d281db6fbb",
+  "practice_run": "v3n1",
+  "seed2_successes": 42,
+  "seed2_units": 50
+ },
+ {
+  "task": "pour_by_language",
+  "folder": "pour_by_language",
+  "sha": "aab001ef968461c264cbf47a4346f8f7c6c48d627a0f930433383216bd04889c",
+  "practice_run": "v3n3",
+  "seed2_successes": 47,
+  "seed2_units": 50
+ },
+ {
+  "task": "pour_liquid_into_cup",
+  "folder": "pour_liquid_into_cup",
+  "sha": "7b6cccf9ae97bb61d5956085cf9ad06b1f92576c1f04debd44416a5c0e175c2f",
+  "practice_run": "v3n3",
+  "seed2_successes": 38,
+  "seed2_units": 50
+ },
+ {
+  "task": "press_by_number",
+  "folder": "press_by_number",
+  "sha": "c0b383797e693ac6b41f40b83c06824a1405cd899799e23d300510a973082230",
+  "practice_run": "v3",
+  "seed2_successes": 50,
+  "seed2_units": 50
+ },
+ {
+  "task": "push_T",
+  "folder": "push_T",
+  "sha": "95c4748f882c433fa9dfca80ae9095c5a6e5ada95409dceb4e189ff9df80697a",
+  "practice_run": "v3n4",
+  "seed2_successes": 50,
+  "seed2_units": 50
+ },
+ {
+  "task": "put_bottles_into_dustbin",
+  "folder": "put_bottles_into_dustbin",
+  "sha": "e7450754c5075240bfccff1969a14fbf8bcf55a84570d9b5b3ba2ae763298fe6",
+  "practice_run": "v3n2",
+  "seed2_successes": 48,
+  "seed2_units": 50
+ },
+ {
+  "task": "solve_equation",
+  "folder": "solve_equation",
+  "sha": "805e3b19224533f47573c0377ae0d55366e00440f0943ac6f7f6917bd8da0101",
+  "practice_run": "v3n4",
+  "seed2_successes": 48,
+  "seed2_units": 50
+ },
+ {
+  "task": "sort_nesting_dolls_by_size",
+  "folder": "sort_nesting_dolls_by_size",
+  "sha": "efded637cd54be4c0406a54cd7eda6af9039799ee02bc10acde230e5845f8933",
+  "practice_run": "v3n3",
+  "seed2_successes": 45,
+  "seed2_units": 50
+ },
+ {
+  "task": "stack_blocks",
+  "folder": "stack_blocks",
+  "sha": "d73fd71f0d21166a0725adfc9ee857a22a8d2c3de822985011161a5a9527efb7",
+  "practice_run": "v3",
+  "seed2_successes": 48,
+  "seed2_units": 50
+ },
+ {
+  "task": "stack_blocks_by_language",
+  "folder": "stack_blocks_by_language",
+  "sha": "7c4753a2334321aa6f5991429dcb745d521fb4304477f3b0adee0f353f4f3c5b",
+  "practice_run": "v3",
+  "seed2_successes": 50,
+  "seed2_units": 50
+ },
+ {
+  "task": "stack_bowls",
+  "folder": "stack_bowls",
+  "sha": "3b9596f3ab709b4a5d087cd22b56053c27a44179eab913eada4a2d42886239d4",
+  "practice_run": "v3",
+  "seed2_successes": 49,
+  "seed2_units": 50
+ },
+ {
+  "task": "store_laptop_and_headphones",
+  "folder": "store_laptop_and_headphones",
+  "sha": "8dd62415d82d1783852fc644dfcec9989239dde540b296734f2807fc62d691af",
+  "practice_run": "v3n2",
+  "seed2_successes": 13,
+  "seed2_units": 50
+ },
+ {
+  "task": "store_tools_in_toolbox",
+  "folder": "store_tools_in_toolbox",
+  "sha": "e6b51ac4b408e00532b2575ba481b6c486467ce1810f6fa9f30a428b374c842a",
+  "practice_run": "v3",
+  "seed2_successes": 0,
+  "seed2_units": 49
+ },
+ {
+  "task": "swap_T",
+  "folder": "swap_T",
+  "sha": "dedaf4b6bb069692579d14741132ab0beca659c60eefe48d28f0ff4c3a5eeecf",
+  "practice_run": "v3n2",
+  "seed2_successes": 50,
+  "seed2_units": 50
+ },
+ {
+  "task": "swap_blocks",
+  "folder": "swap_blocks",
+  "sha": "7db1debf946da1806461af22b870a3dc4a5b1a6057c7d7ac4368ad5db82f9d41",
+  "practice_run": "v3n3",
+  "seed2_successes": 49,
+  "seed2_units": 50
+ },
+ {
+  "task": "sweep_blocks",
+  "folder": "sweep_blocks",
+  "sha": "e87790cfdf64679c2a560cb39542b02304982b5e5910849be72f3367e2fade97",
+  "practice_run": "v3n3",
+  "seed2_successes": 47,
+  "seed2_units": 50
+ }
+]

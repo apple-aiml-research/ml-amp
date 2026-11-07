@@ -1,0 +1,59 @@
+{
+  "name": "amp1_assistive",
+  "version": "5",
+  "description": "AMP1's assistive harness: the basic harness's perception without task priors and object editing for any embodiment, with or without a mobile base, plus grasping and placing routines (grasp and place proposals, planned picks and places, kinematics); waypoint motion stays available, and a robot with a base or a torso also has move_base and move_joints. The robot, its gripper and cameras are read from the observation.",
+  "route_policy": "routes.json",
+  "sdk_package": "robolab_harness",
+  "sdk_exclude": [
+    "MANUAL.md",
+    "__pycache__",
+    "*.pyc"
+  ],
+  "bootstrap": "import robolab_harness as rh\nrh._trace.HARNESS = \"amp1_assistive\"\nep = rh.connect(EPISODE_FILE, wait_ready_s=READY_TIMEOUT_S)\n",
+  "preloaded": [
+    "rh",
+    "ep",
+    "np",
+    "Image",
+    "show"
+  ],
+  "reference_docs": [
+    "../_sdk_amp1_basic/reference.md",
+    "../_sdk_amp1_assistive/held.md",
+    "reference.md"
+  ],
+  "server": {
+    "kind": "teleop",
+    "info_mode": "standard",
+    "cameras": "droid",
+    "obstacles": "scene",
+    "embodiments": [
+      "*"
+    ],
+    "env": {
+      "mobile_base": "optional",
+      "observation_embodiment": "true",
+      "hide_table_height": "true",
+      "table_obstacle": "false",
+      "perception_floor": "false",
+      "held_tracking": "gripper",
+      "assist_proposals": "v2",
+      "assist_place_variants": "flip"
+    }
+  },
+  "tool_mode": "code",
+  "trace_kinds": {
+    "harness.amp1_assistive.connect": "the episode became ready (or connect failed): instruction, wait",
+    "harness.amp1_assistive.candidates": "grasps / places / check_grasp / check_place: the query, how many were feasible, the best, up to 8 feasible ids with their notes, and a failure code when none is",
+    "harness.amp1_assistive.plan": "an assist plan or a manual preview: kind, ok, plan_id, n_steps, error issues",
+    "harness.amp1_assistive.execute": "a motion (execute, run, lift, release, move, push, steps, move_to, gripper, hold, home, stop, move_joints, move_base): its reply and the observed state after it",
+    "harness.amp1_assistive.verify": "verify_grasp / pick_verified / place_verified: the verdict and every attempt, each failed one with a failure code and, when given, the chosen candidate's notes",
+    "harness.amp1_assistive.objects": "segment / define_object / forget_object / reperceive: the agent's edits to the scene",
+    "harness.amp1_assistive.perceive": "objects / object_points / object_at / object_at_pixel / pick: the perceived ids, or the points' shape",
+    "harness.amp1_assistive.look": "rgb / depth / cloud / render / views / render_plan / annotate / closeup / scene / fingers_view / camera: the call and its image's or array's shape, never the pixels",
+    "harness.amp1_assistive.query": "ik / ik_batch / check / check_batch / fk / robot: the kinematics query and its result",
+    "harness.amp1_assistive.finish": "the model ended the episode",
+    "harness.amp1_assistive.request": "one HTTP request the SDK sent: method, path, status, latency_s, bytes, and stack, the public ep methods that sent it, outermost first"
+  },
+  "viewer": null
+}

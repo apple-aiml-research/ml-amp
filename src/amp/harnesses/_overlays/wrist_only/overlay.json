@@ -1,0 +1,7 @@
+{
+  "tag": "wrist",
+  "description": "the wrist camera only: the robot server drops every other camera on arrival (keep_camera_roles: wrist, resolved against the episode's embodiment)",
+  "server_env": {
+    "keep_camera_roles": "wrist"
+  }
+}

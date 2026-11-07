@@ -1,0 +1,7 @@
+{
+  "tag": "rdrecipe",
+  "description": "the episode's instruction ends with the task's public RoboDojo wiki text: its capability dimension, description and process-score ladder (task_notes), as RoboDojo's official LLM entry composes its goal (text sha256 9c962291dad8)",
+  "server_env": {
+    "task_notes": "true"
+  }
+}

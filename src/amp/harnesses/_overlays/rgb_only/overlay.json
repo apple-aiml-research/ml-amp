@@ -1,0 +1,7 @@
+{
+  "tag": "rgb_only",
+  "description": "no depth anywhere: the robot server drops every camera's depth on arrival (drop_depth), so nothing is perceived from depth",
+  "server_env": {
+    "drop_depth": "true"
+  }
+}

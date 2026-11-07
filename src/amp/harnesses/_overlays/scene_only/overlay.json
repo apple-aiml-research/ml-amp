@@ -1,0 +1,7 @@
+{
+  "tag": "scenecam",
+  "description": "the scene cameras only: the robot server drops the wrist camera on arrival (keep_camera_roles: scene, resolved against the episode's embodiment), so nothing is perceived from it",
+  "server_env": {
+    "keep_camera_roles": "scene"
+  }
+}

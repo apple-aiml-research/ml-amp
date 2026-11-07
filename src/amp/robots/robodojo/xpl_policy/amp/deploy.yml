@@ -1,0 +1,13 @@
+# Modified for AMP from XPolicyLab 53c5da5a policy/demo_policy/deploy.yml (Apache-2.0): policy_name set to amp.
+policy_name: amp
+protocol: ws
+host: localhost
+port: null
+bench_name: null
+task_name: null
+ckpt_name: null
+env_cfg_type: null
+seed: null
+action_type: null
+gpu_id: null
+eval_batch: false
