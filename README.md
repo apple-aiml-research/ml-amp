@@ -1,7 +1,7 @@
 # On Agentic Manipulation Policies
 
 [![Project Page](https://img.shields.io/badge/Project-Page-green)](https://apple-aiml-research.github.io/ml-amp/)
-[![arXiv](https://img.shields.io/badge/arXiv-Paper-b31b1b.svg)](https://arxiv.org/)
+[![arXiv](https://img.shields.io/badge/arXiv-2611.09892-b31b1b.svg)](https://arxiv.org/abs/2611.09892)
 
 *Chen Chen&dagger;, Omid Bagherieh&dagger;, Naveen Nikamanth Appiah Balaji&dagger;, Jesse T. Gonzalez&dagger;, Negin Heravi&dagger;, Fahad Islam&dagger;,
 Xueting Li&dagger;, Jean-Baptiste Regli&dagger;, Kejia Ren&dagger;, Petr &Scaron;vec&dagger;, David J. Yoon&dagger;, Matthias M&uuml;ller and Vladlen Koltun*
@@ -78,7 +78,8 @@ If you find this work useful, please cite:
              Yoon, David J. and
              M{\"u}ller, Matthias and
              Koltun, Vladlen},
-  journal = {arXiv preprint},
+  journal = {arXiv preprint arXiv:2611.09892},
+  url     = {https://arxiv.org/abs/2611.09892},
   year    = {2026}
 }
 ```
